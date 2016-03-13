@@ -1,7 +1,7 @@
 {
   "name": "ember-awesome-macros",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "A random collection of Ember computed macros",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,14 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kellyselden/ember-awesome-macros.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Kelly Selden",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
