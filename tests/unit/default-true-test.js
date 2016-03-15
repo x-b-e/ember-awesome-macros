@@ -7,7 +7,6 @@ const {
 } = Ember;
 
 const Obj = Ember.Object.extend({
-  source: undefined,
   test: defaultTrue('source')
 });
 
@@ -15,7 +14,9 @@ let obj;
 
 module('Unit | Macro | default true', {
   beforeEach() {
-    obj = Obj.create();
+    obj = Obj.create({
+      source: undefined
+    });
   }
 });
 
