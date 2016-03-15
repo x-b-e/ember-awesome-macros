@@ -26,7 +26,7 @@ value: getBy('model', 'key')
 ```
 
 ##### `promiseArray`
-wraps a promise in the equivalent of DS.PromiseArray (ArrayProxy and PromiseProxyMixin)
+wraps a promise in the equivalent of `DS.PromiseArray` (`ArrayProxy` and `PromiseProxyMixin`)
 
 ```js
 products: promiseArray(function() {
