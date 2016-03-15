@@ -1,14 +1,13 @@
 import Ember from 'ember';
-import DS from 'ember-data';
 
 const {
+  ArrayProxy,
+  PromiseProxyMixin,
   get,
   computed
 } = Ember;
 
-const {
-  PromiseArray
-} = DS;
+const PromiseArray = ArrayProxy.extend(PromiseProxyMixin);
 
 export default function() {
   let args = Array.apply(null, arguments);
