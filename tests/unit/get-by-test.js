@@ -11,7 +11,6 @@ const Obj = Ember.Object.extend({
     testProp1: 'test val 1',
     testProp2: 'test val 2'
   },
-  source: 'testProp1',
   test: getBy('model', 'source')
 });
 
@@ -19,7 +18,9 @@ let obj;
 
 module('Unit | Macro | get by', {
   beforeEach() {
-    obj = Obj.create();
+    obj = Obj.create({
+      source: 'testProp1'
+    });
   }
 });
 
