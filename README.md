@@ -4,6 +4,16 @@
 [![Dependency Status](https://david-dm.org/kellyselden/ember-awesome-macros.svg)](https://david-dm.org/kellyselden/ember-awesome-macros)
 [![devDependency Status](https://david-dm.org/kellyselden/ember-awesome-macros/dev-status.svg)](https://david-dm.org/kellyselden/ember-awesome-macros#info=devDependencies)
 
+#### Usage
+
+```sh
+ember install ember-awesome-macros
+```
+
+```js
+import nameOfMacro from 'ember-awesome-macros/name-of-macro';
+```
+
 #### Macro list
 * `defaultTrue`
 * `getBy`
