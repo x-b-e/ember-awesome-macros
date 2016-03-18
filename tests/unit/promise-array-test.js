@@ -59,11 +59,11 @@ test('wrapper watches changes', function(assert) {
   assert.expect(1);
 
   // first, get to compute property
-  let result = get(obj, 'wrapperTest');
+  get(obj, 'wrapperTest');
 
   set(obj, 'funcSource', newArray([null, null]));
 
-  result = get(obj, 'wrapperTest');
+  let result = get(obj, 'wrapperTest');
 
   return result.then(result => {
     assert.strictEqual(get(result, 'length'), 2);
@@ -74,11 +74,11 @@ test('wrapper responds to pushes', function(assert) {
   assert.expect(1);
 
   // first, get to compute property
-  let result = get(obj, 'wrapperTest');
+  get(obj, 'wrapperTest');
 
   get(obj, 'funcSource').pushObject(null);
 
-  result = get(obj, 'wrapperTest');
+  let result = get(obj, 'wrapperTest');
 
   return result.then(result => {
     assert.strictEqual(get(result, 'length'), 2);
@@ -117,11 +117,11 @@ test('func watches changes', function(assert) {
   assert.expect(1);
 
   // first, get to compute property
-  let result = get(obj, 'funcTest');
+  get(obj, 'funcTest');
 
   set(obj, 'funcSource', newArray([null, null]));
 
-  result = get(obj, 'funcTest');
+  let result = get(obj, 'funcTest');
 
   return result.then(result => {
     assert.strictEqual(get(result, 'length'), 2);
@@ -132,11 +132,11 @@ test('func responds to pushes', function(assert) {
   assert.expect(1);
 
   // first, get to compute property
-  let result = get(obj, 'funcTest');
+  get(obj, 'funcTest');
 
   get(obj, 'funcSource').pushObject(null);
 
-  result = get(obj, 'funcTest');
+  let result = get(obj, 'funcTest');
 
   return result.then(result => {
     assert.strictEqual(get(result, 'length'), 2);
