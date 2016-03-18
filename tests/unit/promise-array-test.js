@@ -8,11 +8,15 @@ const {
   A: newArray
 } = Ember;
 
+let funcTestKey;
+
 const Obj = Ember.Object.extend({
   wrapperSource: promise('funcSource'),
   wrapperTest: promiseArray('wrapperSource'),
 
-  funcTest: promiseArray('funcSource', function() {
+  funcTest: promiseArray('funcSource', function(key) {
+    funcTestKey = key;
+
     return get(this, 'wrapperSource');
   })
 });
@@ -141,4 +145,12 @@ test('func responds to pushes', function(assert) {
   return result.then(result => {
     assert.strictEqual(get(result, 'length'), 2);
   });
+});
+
+test('func provides key param', function(assert) {
+  assert.expect(1);
+
+  get(obj, 'funcTest');
+
+  assert.strictEqual(funcTestKey, 'funcTest');
 });
