@@ -9,10 +9,9 @@ const {
 
 const PromiseArray = ArrayProxy.extend(PromiseProxyMixin);
 
-export default function() {
-  let args = Array.apply(null, arguments);
-  let keys = args.slice(0, -1);
-  let getPromise = args[args.length - 1];
+export default function(...args) {
+  let getPromise = args.pop();
+  let keys = args;
 
   if (typeof getPromise === 'string') {
     let key = getPromise;
