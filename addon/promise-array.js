@@ -24,7 +24,7 @@ export default function(...args) {
 
   return computed(...keys, function() {
     return PromiseArray.create({
-      promise: getPromise.call(this)
+      promise: getPromise.apply(this, arguments)
     });
   });
 }
