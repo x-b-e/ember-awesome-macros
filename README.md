@@ -17,6 +17,7 @@ import nameOfMacro from 'ember-awesome-macros/name-of-macro';
 #### Macro list
 * `defaultTrue`
 * `getBy`
+* `join`
 * `promiseArray`
 
 #### Details
@@ -33,6 +34,14 @@ model: {
   modelProperty: 'my value'
 },
 value: getBy('model', 'key')
+```
+
+##### `join`
+join a computed array
+
+```js
+values: Ember.A(['1', '2']),
+valuesString: join('values', ', ')
 ```
 
 ##### `promiseArray`
