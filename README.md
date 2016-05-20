@@ -18,6 +18,8 @@ import nameOfMacro from 'ember-awesome-macros/name-of-macro';
 * `defaultTrue`
 * `getBy`
 * `join`
+* `peekQueue`
+* `peekStack`
 * `promiseArray`
 
 #### Details
@@ -33,7 +35,7 @@ key: 'modelProperty',
 model: {
   modelProperty: 'my value'
 },
-value: getBy('model', 'key')
+value: getBy('model', 'key') // "my value"
 ```
 
 ##### `join`
@@ -41,7 +43,23 @@ join a computed array
 
 ```js
 values: Ember.A(['1', '2']),
-valuesString: join('values', ', ')
+valuesString: join('values', ', ') // "1, 2"
+```
+
+##### `peekQueue`
+get the first item of an array
+
+```js
+values: Ember.A(['1', '2']),
+firstValue: peekQueue('values') // "1"
+```
+
+##### `peekStack`
+get the last item of an array
+
+```js
+values: Ember.A(['1', '2']),
+firstValue: peekStack('values') // "2"
 ```
 
 ##### `promiseArray`
