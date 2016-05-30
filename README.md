@@ -22,6 +22,8 @@ import nameOfMacro from 'ember-awesome-macros/name-of-macro';
 * `peekStack`
 * `promiseArray`
 * `promiseObject`
+* `toLower`
+* `toUpper`
 
 #### Details
 
@@ -97,4 +99,20 @@ productPromise: computed(function() {
   return this.store.findRecord('product', 1);
 }),
 product: promiseObject('productPromise')
+```
+
+##### `toLower`
+calls `toLowerCase` on your string
+
+```js
+originalValue: 'abcZXY',
+newValue: toLower('originalValue') // "abcxyz"
+```
+
+##### `toUpper`
+calls `toUpperCase` on your string
+
+```js
+originalValue: 'abcZXY',
+newValue: toUpper('originalValue') // "ABCXYZ"
 ```
