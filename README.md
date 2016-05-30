@@ -21,6 +21,7 @@ import nameOfMacro from 'ember-awesome-macros/name-of-macro';
 * `peekQueue`
 * `peekStack`
 * `promiseArray`
+* `promiseObject`
 
 #### Details
 
@@ -78,4 +79,22 @@ productsPromise: computed(function() {
   return this.store.findAll('product');
 }),
 products: promiseArray('productsPromise')
+```
+
+##### `promiseObject`
+wraps a promise in the equivalent of `DS.PromiseObject` (`ObjectProxy` and `PromiseProxyMixin`)
+
+```js
+product: promiseObject(function() {
+  return this.store.findRecord('product', 1);
+})
+```
+
+can also wrap an existing property
+
+```js
+productPromise: computed(function() {
+  return this.store.findRecord('product', 1);
+}),
+product: promiseObject('productPromise')
 ```
