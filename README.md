@@ -20,7 +20,9 @@ import nameOfMacro from 'ember-awesome-macros/name-of-macro';
 * `join`
 * `peekQueue`
 * `peekStack`
+* `promiseAll`
 * `promiseArray`
+* `promiseHash`
 * `promiseObject`
 * `toLower`
 * `toUpper`
@@ -65,6 +67,19 @@ values: Ember.A(['1', '2']),
 firstValue: peekStack('values') // "2"
 ```
 
+##### `promiseAll`
+combines promises using `RSVP.all`
+
+```js
+promise1: computed(function() {
+  return RSVP.resolve('value1');
+}),
+promise2: computed(function() {
+  return RSVP.resolve('value2');
+}),
+promise: promiseAll('promise1', 'promise2') // resolves to ['value1', 'value2']
+```
+
 ##### `promiseArray`
 wraps a promise in the equivalent of `DS.PromiseArray` (`ArrayProxy` and `PromiseProxyMixin`)
 
@@ -81,6 +96,19 @@ productsPromise: computed(function() {
   return this.store.findAll('product');
 }),
 products: promiseArray('productsPromise')
+```
+
+##### `promiseHash`
+combines promises using `RSVP.hash`
+
+```js
+promise1: computed(function() {
+  return RSVP.resolve('value1');
+}),
+promise2: computed(function() {
+  return RSVP.resolve('value2');
+}),
+promise: promiseHash('promise1', 'promise2') // resolves to { promise1: 'value1', promise2: 'value2' }
 ```
 
 ##### `promiseObject`
