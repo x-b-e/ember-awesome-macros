@@ -17,6 +17,7 @@ import nameOfMacro from 'ember-awesome-macros/name-of-macro';
 #### Macro list
 * `defaultTrue`
 * `getBy`
+* `ifFalsy`
 * `join`
 * `peekQueue`
 * `peekStack`
@@ -30,7 +31,16 @@ import nameOfMacro from 'ember-awesome-macros/name-of-macro';
 #### Details
 
 ##### `defaultTrue`
-sugar for `ifNull('key', true)` from [ember-cpm](https://github.com/cibernox/ember-cpm)
+true if source is undefined
+
+```js
+source1: undefined,
+source2: false,
+source3: 'my value',
+value1: defaultTrue('source1') // true
+value2: defaultTrue('source2') // false
+value3: defaultTrue('source3') // "my value"
+```
 
 ##### `getBy`
 get a variable property name from an object
@@ -41,6 +51,19 @@ model: {
   modelProperty: 'my value'
 },
 value: getBy('model', 'key') // "my value"
+```
+
+##### `ifFalsy`
+fallback value if source is falsy
+
+```js
+source1: undefined,
+source2: false,
+source3: 'my value',
+fallback: 'my fallback',
+value1: ifFalsy('source1', 'fallback') // "my fallback"
+value2: ifFalsy('source2', 'fallback') // "my fallback"
+value3: ifFalsy('source3', 'fallback') // "my value"
 ```
 
 ##### `join`
