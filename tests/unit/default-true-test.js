@@ -26,7 +26,7 @@ test('defaults true', function(assert) {
   assert.strictEqual(get(obj, 'test'), true);
 });
 
-test('false passes through', function(assert) {
+test('false doesn\'t pass through', function(assert) {
   assert.expect(1);
 
   set(obj, 'source', false);
@@ -34,10 +34,10 @@ test('false passes through', function(assert) {
   assert.strictEqual(get(obj, 'test'), false);
 });
 
-test('true passes through', function(assert) {
+test('true doesn\'t pass through', function(assert) {
   assert.expect(1);
 
-  set(obj, 'source', true);
+  set(obj, 'source', 1);
 
-  assert.strictEqual(get(obj, 'test'), true);
+  assert.strictEqual(get(obj, 'test'), 1);
 });
