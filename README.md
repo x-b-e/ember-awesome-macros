@@ -15,18 +15,18 @@ import nameOfMacro from 'ember-awesome-macros/name-of-macro';
 ```
 
 #### Macro list
-* `defaultTrue`
-* `getBy`
-* `ifFalsy`
-* `join`
-* `peekQueue`
-* `peekStack`
-* `promiseAll`
-* `promiseArray`
-* `promiseHash`
-* `promiseObject`
-* `toLower`
-* `toUpper`
+* [`defaultTrue`](#defaulttrue)
+* [`getBy`](#getby)
+* [`ifFalsy`](#iffalsy)
+* [`join`](#join)
+* [`peekQueue`](#peekqueue)
+* [`peekStack`](#peekstack)
+* [`promiseAll`](#promiseall)
+* [`promiseArray`](#promisearray)
+* [`promiseHash`](#promisehash)
+* [`promiseObject`](#promiseobject)
+* [`toLower`](#tolower)
+* [`toUpper`](#toupper)
 
 #### Details
 
