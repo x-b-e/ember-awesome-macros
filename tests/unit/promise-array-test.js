@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import promiseArray from 'ember-awesome-macros/promise-array';
+import { promiseArray } from 'ember-awesome-macros/macros';
 import { module, test } from 'qunit';
 import promise from 'ember-cpm/macros/promise';
 

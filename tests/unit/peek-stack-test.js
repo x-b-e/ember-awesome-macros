@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import peekStack from 'ember-awesome-macros/peek-stack';
+import { peekStack } from 'ember-awesome-macros/macros';
 import { module, test } from 'qunit';
 
 const {

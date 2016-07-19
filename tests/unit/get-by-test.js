@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import getBy from 'ember-awesome-macros/get-by';
+import { getBy } from 'ember-awesome-macros/macros';
 import { module, test } from 'qunit';
 
 const {
