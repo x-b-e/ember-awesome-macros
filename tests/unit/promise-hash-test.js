@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import promiseHash from 'ember-awesome-macros/promise-hash';
+import { promiseHash } from 'ember-awesome-macros/macros';
 import { module, test } from 'qunit';
 
 const {

@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import ifFalsy from 'ember-awesome-macros/if-falsy';
+import { ifFalsy } from 'ember-awesome-macros/macros';
 import { module, test } from 'qunit';
 
 const {

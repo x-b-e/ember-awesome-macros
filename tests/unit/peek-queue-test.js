@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import peekQueue from 'ember-awesome-macros/peek-queue';
+import { peekQueue } from 'ember-awesome-macros/macros';
 import { module, test } from 'qunit';
 
 const {
