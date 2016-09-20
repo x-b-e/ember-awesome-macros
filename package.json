@@ -1,6 +1,6 @@
 {
   "name": "ember-awesome-macros",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A random collection of Ember computed macros",
   "directories": {
     "doc": "doc",
