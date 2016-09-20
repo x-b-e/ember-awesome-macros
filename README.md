@@ -66,6 +66,7 @@ fallback: 'my fallback',
 value1: ifFalsy('source1', 'fallback') // "my fallback"
 value2: ifFalsy('source2', 'fallback') // "my fallback"
 value3: ifFalsy('source3', 'fallback') // "my value"
+value4: ifFalsy('source1', 'source2', 'fallback') // "my fallback"
 ```
 
 ##### `join`
