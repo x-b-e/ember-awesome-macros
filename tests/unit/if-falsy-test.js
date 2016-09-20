@@ -7,7 +7,8 @@ const {
 } = Ember;
 
 const Obj = Ember.Object.extend({
-  test: ifFalsy('source', 'fallback')
+  test: ifFalsy('source', 'fallback'),
+  testMultiple: ifFalsy('source', 'source2', 'fallback')
 });
 
 let obj;
@@ -64,4 +65,18 @@ test('watches changes to fallback', function(assert) {
   set(obj, 'fallback', 'new fallback');
 
   assert.strictEqual(get(obj, 'test'), 'new fallback');
+});
+
+test('when multiple, uses second if truthy', function(assert) {
+  assert.expect(1);
+
+  set(obj, 'source2', 'test source');
+
+  assert.strictEqual(get(obj, 'testMultiple'), 'test source');
+});
+
+test('when multiple, passes through all if all falsy', function(assert) {
+  assert.expect(1);
+
+  assert.strictEqual(get(obj, 'testMultiple'), 'test fallback');
 });
