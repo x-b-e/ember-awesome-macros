@@ -13,7 +13,7 @@ const Obj = Ember.Object.extend({
 
 let obj;
 
-module('Unit | Macro | join', {
+module('Unit | Macro | peek queue', {
   beforeEach() {
     obj = Obj.create({
       array: newArray(['test1', 'test2'])

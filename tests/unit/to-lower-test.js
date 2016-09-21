@@ -12,7 +12,7 @@ const Obj = Ember.Object.extend({
 
 let obj;
 
-module('Unit | Macro | to upper', {
+module('Unit | Macro | to lower', {
   beforeEach() {
     obj = Obj.create({
       source: undefined
