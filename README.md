@@ -19,7 +19,6 @@ import { nameOfMacro } from 'ember-awesome-macros';
 #### Macro list
 * [`defaultTrue`](#defaulttrue)
 * [`getBy`](#getby)
-* [`ifFalsy`](#iffalsy)
 * [`join`](#join)
 * [`peekQueue`](#peekqueue)
 * [`peekStack`](#peekstack)
@@ -53,20 +52,6 @@ model: {
   modelProperty: 'my value'
 },
 value: getBy('model', 'key') // "my value"
-```
-
-##### `ifFalsy`
-fallback value if source is falsy
-
-```js
-source1: undefined,
-source2: false,
-source3: 'my value',
-fallback: 'my fallback',
-value1: ifFalsy('source1', 'fallback') // "my fallback"
-value2: ifFalsy('source2', 'fallback') // "my fallback"
-value3: ifFalsy('source3', 'fallback') // "my value"
-value4: ifFalsy('source1', 'source2', 'fallback') // "my fallback"
 ```
 
 ##### `join`

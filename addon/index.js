@@ -1,6 +1,5 @@
 export { default as defaultTrue } from './default-true';
 export { default as getBy } from './get-by';
-export { default as ifFalsy } from './if-falsy';
 export { default as join } from './join';
 export { default as peekQueue } from './peek-queue';
 export { default as peekStack } from './peek-stack';
