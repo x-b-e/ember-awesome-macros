@@ -1,4 +1,5 @@
 # ember-awesome-macros
+
 [![npm version](https://badge.fury.io/js/ember-awesome-macros.svg)](https://badge.fury.io/js/ember-awesome-macros)
 [![Build Status](https://travis-ci.org/kellyselden/ember-awesome-macros.svg?branch=master)](https://travis-ci.org/kellyselden/ember-awesome-macros)
 [![Dependency Status](https://david-dm.org/kellyselden/ember-awesome-macros.svg)](https://david-dm.org/kellyselden/ember-awesome-macros)
@@ -18,8 +19,13 @@ import { nameOfMacro } from 'ember-awesome-macros';
 
 #### Macro list
 * [`defaultTrue`](#defaulttrue)
+* [`equalKey`](#equalkey)
 * [`getBy`](#getby)
+* [`gtKey`](#gtkey)
+* [`gteKey`](#gtekey)
 * [`join`](#join)
+* [`ltKey`](#ltkey)
+* [`lteKey`](#ltekey)
 * [`peekQueue`](#peekqueue)
 * [`peekStack`](#peekstack)
 * [`promiseAll`](#promiseall)
@@ -43,6 +49,17 @@ value2: defaultTrue('source2') // false
 value3: defaultTrue('source3') // "my value"
 ```
 
+##### `equalKey`
+like `Ember.computed.equal`, but uses dependent properties on both sides
+
+```js
+source1: 'my value',
+source2: 'my other value',
+source3: 'my value',
+value1: equalKey('source1', 'source2') // false
+value2: equalKey('source1', 'source3') // true
+```
+
 ##### `getBy`
 get a variable property name from an object
 
@@ -54,12 +71,60 @@ model: {
 value: getBy('model', 'key') // "my value"
 ```
 
+##### `gtKey`
+like `Ember.computed.gt`, but uses dependent properties on both sides
+
+```js
+source1: 1,
+source2: 2,
+source3: 1,
+value1: gtKey('source1', 'source2') // false
+value2: gtKey('source1', 'source3') // false
+value3: gtKey('source2', 'source3') // true
+```
+
+##### `gteKey`
+like `Ember.computed.gte`, but uses dependent properties on both sides
+
+```js
+source1: 1,
+source2: 2,
+source3: 1,
+value1: gteKey('source1', 'source2') // false
+value2: gteKey('source1', 'source3') // true
+value3: gteKey('source2', 'source3') // true
+```
+
 ##### `join`
 join a computed array
 
 ```js
 values: Ember.A(['1', '2']),
 valuesString: join('values', ', ') // "1, 2"
+```
+
+##### `ltKey`
+like `Ember.computed.lt`, but uses dependent properties on both sides
+
+```js
+source1: 1,
+source2: 2,
+source3: 1,
+value1: ltKey('source1', 'source2') // true
+value2: ltKey('source1', 'source3') // false
+value3: ltKey('source2', 'source3') // false
+```
+
+##### `lteKey`
+like `Ember.computed.lte`, but uses dependent properties on both sides
+
+```js
+source1: 1,
+source2: 2,
+source3: 1,
+value1: lteKey('source1', 'source2') // true
+value2: lteKey('source1', 'source3') // true
+value3: lteKey('source2', 'source3') // false
 ```
 
 ##### `peekQueue`
