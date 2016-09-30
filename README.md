@@ -18,6 +18,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 ```
 
 #### Macro list
+* [`and`](#and)
 * [`defaultTrue`](#defaulttrue)
 * [`equalKey`](#equalkey)
 * [`getBy`](#getby)
@@ -26,6 +27,8 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`join`](#join)
 * [`ltKey`](#ltkey)
 * [`lteKey`](#ltekey)
+* [`not`](#not)
+* [`or`](#or)
 * [`peekQueue`](#peekqueue)
 * [`peekStack`](#peekstack)
 * [`promiseAll`](#promiseall)
@@ -36,6 +39,17 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`toUpper`](#toupper)
 
 #### Details
+
+##### `and`
+same as `Ember.computed.and`, but allows composing
+
+```js
+source1: false,
+source2: true,
+source3: false,
+value1: and('source1', 'source2', 'source3'), // false
+value2: and(not('source1'), 'source2', not('source3')) // true
+```
 
 ##### `defaultTrue`
 true if source is undefined
@@ -125,6 +139,27 @@ source3: 1,
 value1: lteKey('source1', 'source2') // true
 value2: lteKey('source1', 'source3') // true
 value3: lteKey('source2', 'source3') // false
+```
+
+##### `not`
+same as `Ember.computed.not`, but allows composing
+
+```js
+source1: true,
+source2: false,
+value1: not('source1'), // false
+value2: not(and('source1', 'source2')) // true
+```
+
+##### `or`
+same as `Ember.computed.or`, but allows composing
+
+```js
+source1: true,
+source2: false,
+source3: true,
+value1: or('source1', 'source2', 'source3'), // true
+value2: or(not('source1'), 'source2', not('source3')) // false
 ```
 
 ##### `peekQueue`
