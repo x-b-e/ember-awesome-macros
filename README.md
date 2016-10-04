@@ -37,6 +37,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`promiseArray`](#promisearray)
 * [`promiseHash`](#promisehash)
 * [`promiseObject`](#promiseobject)
+* [`raw`](#raw)
 * [`toLower`](#tolower)
 * [`toUpper`](#toupper)
 
@@ -263,6 +264,17 @@ productPromise: computed(function() {
   return this.store.findRecord('product', 1);
 }),
 product: promiseObject('productPromise')
+```
+
+##### `raw`
+a helper if you want to get fancy with composing
+
+```js
+source: 'my computed value',
+value: hash({
+  prop1: 'source',
+  prop2: raw('my raw value')
+}) // { prop1: "my computed value", prop2: "my raw value" }
 ```
 
 ##### `toLower`
