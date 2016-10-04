@@ -59,7 +59,7 @@ build an array out of computed properties, allows composing
 ```js
 source1: 'my value 1',
 source2: 'my value 2',
-value: array('source1', array('source2')), // ['my value 1', ['my value 2']]
+value: array('source1', array('source2')), // ["my value 1", ["my value 2"]]
 ```
 
 ##### `defaultTrue`
@@ -131,7 +131,7 @@ value: hash({
   prop2: hash({
     prop: 'source2'
   })
-}), // { prop1: 'my value 1', prop2: { prop: 'my value 2' } }
+}), // { prop1: "my value 1", prop2: { prop: "my value 2" } }
 ```
 
 ##### `join`
