@@ -19,11 +19,13 @@ import { nameOfMacro } from 'ember-awesome-macros';
 
 #### Macro list
 * [`and`](#and)
+* [`array`](#array)
 * [`defaultTrue`](#defaulttrue)
 * [`equalKey`](#equalkey)
 * [`getBy`](#getby)
 * [`gtKey`](#gtkey)
 * [`gteKey`](#gtekey)
+* [`hash`](#hash)
 * [`join`](#join)
 * [`ltKey`](#ltkey)
 * [`lteKey`](#ltekey)
@@ -49,6 +51,15 @@ source2: true,
 source3: false,
 value1: and('source1', 'source2', 'source3'), // false
 value2: and(not('source1'), 'source2', not('source3')) // true
+```
+
+##### `array`
+build an array out of computed properties, allows composing
+
+```js
+source1: 'my value 1',
+source2: 'my value 2',
+value: array('source1', array('source2')), // ['my value 1', ['my value 2']]
 ```
 
 ##### `defaultTrue`
@@ -107,6 +118,20 @@ source3: 1,
 value1: gteKey('source1', 'source2') // false
 value2: gteKey('source1', 'source3') // true
 value3: gteKey('source2', 'source3') // true
+```
+
+##### `hash`
+build a hash out of computed properties, allows composing
+
+```js
+source1: 'my value 1',
+source2: 'my value 2',
+value: hash({
+  prop1: 'source1',
+  prop2: hash({
+    prop: 'source2'
+  })
+}), // { prop1: 'my value 1', prop2: { prop: 'my value 2' } }
 ```
 
 ##### `join`

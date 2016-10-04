@@ -1,9 +1,11 @@
 export { default as and } from './and';
+export { default as array } from './array';
 export { default as defaultTrue } from './default-true';
 export { default as equalKey } from './equal-key';
 export { default as getBy } from './get-by';
 export { default as gtKey } from './gt-key';
 export { default as gteKey } from './gte-key';
+export { default as hash } from './hash';
 export { default as join } from './join';
 export { default as ltKey } from './lt-key';
 export { default as lteKey } from './lte-key';
