@@ -20,6 +20,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 #### Macro list
 * [`and`](#and)
 * [`array`](#array)
+* [`collect`](#collect)
 * [`defaultTrue`](#defaulttrue)
 * [`equalKey`](#equalkey)
 * [`getBy`](#getby)
@@ -55,12 +56,21 @@ value2: and(not('source1'), 'source2', not('source3')) // true
 ```
 
 ##### `array`
-build an array out of computed properties, allows composing
+alias for [`collect`](#collect)
 
 ```js
 source1: 'my value 1',
 source2: 'my value 2',
 value: array('source1', array('source2')), // ["my value 1", ["my value 2"]]
+```
+
+##### `collect`
+same as `Ember.computed.collect`, but allows composing
+
+```js
+source1: 'my value 1',
+source2: 'my value 2',
+value: collect('source1', collect('source2')), // ["my value 1", ["my value 2"]]
 ```
 
 ##### `defaultTrue`

@@ -1,5 +1,6 @@
 export { default as and } from './and';
 export { default as array } from './array';
+export { default as collect } from './collect';
 export { default as defaultTrue } from './default-true';
 export { default as equalKey } from './equal-key';
 export { default as getBy } from './get-by';
