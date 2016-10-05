@@ -30,3 +30,13 @@ test('it works', function(assert) {
     ['test value']
   ]);
 });
+
+test('it returns an ember array', function(assert) {
+  assert.expect(1);
+
+  setProperties(obj, {
+    source: 'test value'
+  });
+
+  assert.ok(get(obj, 'test').pushObject);
+});

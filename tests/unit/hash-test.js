@@ -30,10 +30,20 @@ test('it works', function(assert) {
     source: 'test value'
   });
 
-  assert.deepEqual(get(obj, 'test'), {
+  assert.deepEqual(get(obj, 'test'), Ember.Object.create({
     source1: 'test value',
-    source2: {
+    source2: Ember.Object.create({
       source: 'test value'
-    }
+    })
+  }));
+});
+
+test('it returns an ember object', function(assert) {
+  assert.expect(1);
+
+  setProperties(obj, {
+    source: 'test value'
   });
+
+  assert.ok(get(obj, 'test').get);
 });
