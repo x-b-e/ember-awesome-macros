@@ -58,12 +58,6 @@ value2: and(not('source1'), 'source2', not('source3')) // true
 ##### `array`
 alias for [`collect`](#collect)
 
-```js
-source1: 'my value 1',
-source2: 'my value 2',
-value: array('source1', array('source2')), // ["my value 1", ["my value 2"]]
-```
-
 ##### `collect`
 same as `Ember.computed.collect`, but allows composing
 
