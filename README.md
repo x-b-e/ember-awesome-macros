@@ -29,10 +29,12 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`gteKey`](#gtekey)
 * [`hash`](#hash)
 * [`includes`](#includes)
+* [`indexOf`](#indexof)
 * [`join`](#join)
 * [`ltKey`](#ltkey)
 * [`lteKey`](#ltekey)
 * [`not`](#not)
+* [`objectAt`](#objectat)
 * [`or`](#or)
 * [`peekQueue`](#peekqueue)
 * [`peekStack`](#peekstack)
@@ -156,6 +158,18 @@ value2: includes('array', 'source2') // false
 value3: includes(collect('my value 1', 'my value 2'), raw('my value 1')) // true
 ```
 
+##### `indexOf`
+implements `Array.prototype.indexOf()`, allows composing
+
+```js
+array: Ember.A(['my value 1', 'my value 2']),
+source1: 'my value 2',
+source2: 'my value 3',
+value1: indexOf('array', 'source1') // 0
+value2: indexOf('array', 'source2') // -1
+value3: indexOf(collect('my value 1', 'my value 2'), raw('my value 1')) // 0
+```
+
 ##### `join`
 join a computed array
 
@@ -196,6 +210,18 @@ source1: true,
 source2: false,
 value1: not('source1'), // false
 value2: not(and('source1', 'source2')) // true
+```
+
+##### `objectAt`
+implements `http://emberjs.com/api/classes/Ember.MutableArray.html#method_objectAt`, allows composing
+
+```js
+array: Ember.A(['my value']),
+source1: 0,
+source2: 1,
+value1: objectAt('array', 'source1') // "my value"
+value2: objectAt('array', 'source2') // undefined
+value3: objectAt(collect('my value 1'), raw(0)) // "my value"
 ```
 
 ##### `or`
