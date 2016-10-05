@@ -21,12 +21,14 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`and`](#and)
 * [`array`](#array)
 * [`collect`](#collect)
+* [`contains`](#contains)
 * [`defaultTrue`](#defaulttrue)
 * [`equalKey`](#equalkey)
 * [`getBy`](#getby)
 * [`gtKey`](#gtkey)
 * [`gteKey`](#gtekey)
 * [`hash`](#hash)
+* [`includes`](#includes)
 * [`join`](#join)
 * [`ltKey`](#ltkey)
 * [`lteKey`](#ltekey)
@@ -66,6 +68,9 @@ source1: 'my value 1',
 source2: 'my value 2',
 value: collect('source1', collect('source2')), // ["my value 1", ["my value 2"]]
 ```
+
+##### `contains`
+alias for [`includes`](#includes)
 
 ##### `defaultTrue`
 true if source is undefined
@@ -137,6 +142,18 @@ value: hash({
     prop: 'source2'
   })
 }), // { prop1: "my value 1", prop2: { prop: "my value 2" } }
+```
+
+##### `includes`
+implements `Array.prototype.includes()`, allows composing
+
+```js
+array: Ember.A(['my value 1', 'my value 2']),
+source1: 'my value 2',
+source2: 'my value 3',
+value1: includes('array', 'source1') // true
+value2: includes('array', 'source2') // false
+value3: includes(collect('my value 1', 'my value 2'), raw('my value 1')) // true
 ```
 
 ##### `join`
