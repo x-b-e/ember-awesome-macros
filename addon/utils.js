@@ -12,7 +12,12 @@ function isComputed(key) {
 function _flattenKeys(keys, flattenedKeys) {
   keys.forEach(key => {
     if (isComputed(key)) {
-      _flattenKeys(key._dependentKeys, flattenedKeys);
+      let dependentKeys = key._dependentKeys;
+      if (dependentKeys === undefined) {
+        // when there are no keys (raw)
+        return;
+      }
+      _flattenKeys(dependentKeys, flattenedKeys);
     } else {
       flattenedKeys.push(key);
     }
