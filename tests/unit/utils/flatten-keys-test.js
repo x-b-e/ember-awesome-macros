@@ -26,3 +26,13 @@ test('it works', function(assert) {
     'test4'
   ]);
 });
+
+test('it handles undefined _dependentKeys (raw)', function(assert) {
+  let key = {
+    _dependentKeys: undefined
+  };
+
+  let flattenedKeys = flattenKeys([key]);
+
+  assert.deepEqual(flattenedKeys, []);
+});
