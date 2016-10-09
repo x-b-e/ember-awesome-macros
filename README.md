@@ -68,7 +68,7 @@ same as `Ember.computed.collect`, but allows composing
 ```js
 source1: 'my value 1',
 source2: 'my value 2',
-value: collect('source1', collect('source2')), // ["my value 1", ["my value 2"]]
+value: collect('source1', collect('source2')), // ['my value 1', ['my value 2']]
 ```
 
 ##### `contains`
@@ -83,7 +83,7 @@ source2: false,
 source3: 'my value',
 value1: defaultTrue('source1') // true
 value2: defaultTrue('source2') // false
-value3: defaultTrue('source3') // "my value"
+value3: defaultTrue('source3') // 'my value'
 ```
 
 ##### `equalKey`
@@ -105,7 +105,7 @@ key: 'modelProperty',
 model: {
   modelProperty: 'my value'
 },
-value: getBy('model', 'key') // "my value"
+value: getBy('model', 'key') // 'my value'
 ```
 
 ##### `gtKey`
@@ -143,7 +143,7 @@ value: hash({
   prop2: hash({
     prop: 'source2'
   })
-}), // { prop1: "my value 1", prop2: { prop: "my value 2" } }
+}), // { prop1: 'my value 1', prop2: { prop: 'my value 2' } }
 ```
 
 ##### `includes`
@@ -175,7 +175,7 @@ join a computed array
 
 ```js
 values: Ember.A(['1', '2']),
-valuesString: join('values', ', ') // "1, 2"
+valuesString: join('values', ', ') // '1, 2'
 ```
 
 ##### `ltKey`
@@ -219,9 +219,9 @@ implements `http://emberjs.com/api/classes/Ember.MutableArray.html#method_object
 array: Ember.A(['my value']),
 source1: 0,
 source2: 1,
-value1: objectAt('array', 'source1') // "my value"
+value1: objectAt('array', 'source1') // 'my value'
 value2: objectAt('array', 'source2') // undefined
-value3: objectAt(collect(raw('my value 1')), raw(0)) // "my value"
+value3: objectAt(collect(raw('my value 1')), raw(0)) // 'my value'
 ```
 
 ##### `or`
@@ -240,7 +240,7 @@ get the first item of an array
 
 ```js
 values: Ember.A(['1', '2']),
-firstValue: peekQueue('values') // "1"
+firstValue: peekQueue('values') // '1'
 ```
 
 ##### `peekStack`
@@ -248,7 +248,7 @@ get the last item of an array
 
 ```js
 values: Ember.A(['1', '2']),
-firstValue: peekStack('values') // "2"
+firstValue: peekStack('values') // '2'
 ```
 
 ##### `promiseAll`
@@ -321,7 +321,7 @@ source: 'my computed value',
 value: hash({
   prop1: 'source',
   prop2: raw('my raw value')
-}) // { prop1: "my computed value", prop2: "my raw value" }
+}) // { prop1: 'my computed value', prop2: 'my raw value' }
 ```
 
 ##### `split`
@@ -330,8 +330,8 @@ implements `String.prototype.split()`, allows composing
 ```js
 source: 'val1,val2',
 key: ',',
-value: split('source', 'key') // ["val1", "val2"]
-value: split('source', raw(',')) // ["val1", "val2"]
+value: split('source', 'key') // ['val1', 'val2']
+value: split('source', raw(',')) // ['val1', 'val2']
 ```
 
 ##### `toLower`
@@ -339,7 +339,7 @@ calls `toLowerCase` on your string
 
 ```js
 originalValue: 'abcZXY',
-newValue: toLower('originalValue') // "abcxyz"
+newValue: toLower('originalValue') // 'abcxyz'
 ```
 
 ##### `toUpper`
@@ -347,5 +347,5 @@ calls `toUpperCase` on your string
 
 ```js
 originalValue: 'abcZXY',
-newValue: toUpper('originalValue') // "ABCXYZ"
+newValue: toUpper('originalValue') // 'ABCXYZ'
 ```
