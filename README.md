@@ -155,7 +155,7 @@ source1: 'my value 2',
 source2: 'my value 3',
 value1: includes('array', 'source1') // true
 value2: includes('array', 'source2') // false
-value3: includes(collect('my value 1', 'my value 2'), raw('my value 1')) // true
+value3: includes(collect(raw('my value 1'), raw('my value 2')), raw('my value 1')) // true
 ```
 
 ##### `indexOf`
@@ -167,7 +167,7 @@ source1: 'my value 2',
 source2: 'my value 3',
 value1: indexOf('array', 'source1') // 0
 value2: indexOf('array', 'source2') // -1
-value3: indexOf(collect('my value 1', 'my value 2'), raw('my value 1')) // 0
+value3: indexOf(collect(raw('my value 1'), raw('my value 2')), raw('my value 1')) // 0
 ```
 
 ##### `join`
@@ -221,7 +221,7 @@ source1: 0,
 source2: 1,
 value1: objectAt('array', 'source1') // "my value"
 value2: objectAt('array', 'source2') // undefined
-value3: objectAt(collect('my value 1'), raw(0)) // "my value"
+value3: objectAt(collect(raw('my value 1')), raw(0)) // "my value"
 ```
 
 ##### `or`
