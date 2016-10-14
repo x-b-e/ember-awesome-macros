@@ -43,6 +43,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`promiseHash`](#promisehash)
 * [`promiseObject`](#promiseobject)
 * [`raw`](#raw)
+* [`split`](#split)
 * [`toLower`](#tolower)
 * [`toUpper`](#toupper)
 
