@@ -18,6 +18,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 ```
 
 #### Macro list
+
 * [`add`](#add)
 * [`and`](#and)
 * [`array`](#array)
