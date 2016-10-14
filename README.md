@@ -27,6 +27,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`defaultTrue`](#defaulttrue)
 * [`difference`](#difference)
 * [`divide`](#divide)
+* [`equal`](#equal)
 * [`getBy`](#getby)
 * [`gt`](#gt)
 * [`gte`](#gte)
