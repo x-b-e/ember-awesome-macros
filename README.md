@@ -394,7 +394,14 @@ value2: quotient('source2', quotient('source2', 'source3')) // 1.5
 ```
 
 ##### `raw`
-a helper if you want to get fancy with composing
+a helper if you want to use "literals" in your macros
+
+```js
+value1: equal('key1', raw('my value 1')),
+value2: indexOf('key2', raw('my value 2'))
+```
+
+or you want to get fancy with composing
 
 ```js
 source: 'my computed value',
