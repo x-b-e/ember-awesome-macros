@@ -35,6 +35,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 ##### Boolean
 * [`and`](#and)
 * [`defaultTrue`](#defaulttrue)
+* [`isHtmlSafe`](#ishtmlsafe)
 * [`not`](#not)
 * [`or`](#or)
 
@@ -73,7 +74,6 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`dasherize`](#dasherize)
 * [`decamelize`](#decamelize)
 * [`htmlSafe`](#htmlsafe)
-* [`isHtmlSafe`](#ishtmlsafe)
 * [`split`](#split)
 * [`toLower`](#tolower)
 * [`toUpper`](#toupper)
