@@ -5,6 +5,16 @@
 [![Dependency Status](https://david-dm.org/kellyselden/ember-awesome-macros.svg)](https://david-dm.org/kellyselden/ember-awesome-macros)
 [![devDependency Status](https://david-dm.org/kellyselden/ember-awesome-macros/dev-status.svg)](https://david-dm.org/kellyselden/ember-awesome-macros#info=devDependencies)
 
+A random collection of Ember computed macros. All the macros are composable, meaning you can nest them to your heart's content, like so:
+
+```js
+result: conditional(and(not('value1'), 'value2'), sum('value3', 1), collect('value4', toUpper('value5'))) // lisp much?
+```
+
+The API is not final until 1.0. I will be adding aliases as I think of better names for things, and possibly breaking or removing existing macros.
+
+If you have any opinions or want a new macro added, just ask! Or feel free to submit a pull request.
+
 #### Usage
 
 ```sh
