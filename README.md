@@ -29,8 +29,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 
 #### Macro list
 
-<!--- don't match the array link fragment --->
-##### Arr&zwnj;ay
+##### Array
 * [`any`](#any)
 * [`array`](#array)
 * [`collect`](#collect)
