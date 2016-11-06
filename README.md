@@ -65,7 +65,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`not`](#not)
 * [`or`](#or)
 
-##### Equality
+##### Comparison
 * [`eq`](#eq)
 * [`equal`](#equal)
 * [`gt`](#gt)
