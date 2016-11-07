@@ -92,7 +92,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`typeOf`](#typeof)
 
 ##### Math
-* [`math`](#math)
+* [`math`](#math-1)
 
 ##### Primitives
 * [`computed`](#computed)
