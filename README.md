@@ -433,7 +433,7 @@ value3: includes(collect(raw('my value 1'), raw('my value 2')), raw('my value 1'
 ```
 
 ##### `indexOf`
-wraps [`Array.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), allows composing
+wraps [`Array.prototype.indexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), allows composing
 
 ```js
 array: [2, 5, 9, 2],
@@ -497,7 +497,7 @@ value2: join(collect(raw('1'), raw('2')), raw(', ')) // '1, 2'
 ```
 
 ##### `lastIndexOf`
-wraps [`Array.prototype.lastIndexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf), allows composing
+wraps [`Array.prototype.lastIndexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf), allows composing
 
 ```js
 array: [2, 5, 9, 2],
@@ -740,7 +740,7 @@ value: hash({
 ```
 
 ##### `reduce`
-wraps [`Array.prototype.reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce), allows composing
+wraps [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce), allows composing
 
 ```js
 array: ['one', 'two'],
@@ -757,7 +757,7 @@ value2: reduce(split('string', raw(', ')), (obj, cur, i) => {
 ```
 
 ##### `slice`
-wraps [`Array.prototype.slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice), allows composing
+wraps [`Array.prototype.slice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice), allows composing
 
 ```js
 array: [1, 2, 3],
@@ -776,7 +776,7 @@ value2: split('source', raw(',')) // ['val1', 'val2']
 ```
 
 ##### `substr`
-wraps [`String.prototype.substr`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr), allows composing
+wraps [`String.prototype.substr()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr), allows composing
 
 ```js
 string1: 'abcxyz',
@@ -787,7 +787,7 @@ composingExample: substr(tag`${'string2'}${'string3'}`, 2, 2) // 'cx'
 ```
 
 ##### `substring`
-wraps [`String.prototype.substring`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring), allows composing
+wraps [`String.prototype.substring()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring), allows composing
 
 ```js
 string1: 'abcxyz',
@@ -821,7 +821,7 @@ value2: tag`one ${toUpper('source')} three` // 'one TWO three'
 ```
 
 ##### `toLower`
-wraps [`String.prototype.toLowerCase`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase), allows composing
+wraps [`String.prototype.toLowerCase()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase), allows composing
 
 ```js
 originalValue: 'TestString',
@@ -829,7 +829,7 @@ newValue: toLower('originalValue') // 'teststring'
 ```
 
 ##### `toUpper`
-wraps [`String.prototype.toUpperCase`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase), allows composing
+wraps [`String.prototype.toUpperCase()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase), allows composing
 
 ```js
 originalValue: 'TestString',
