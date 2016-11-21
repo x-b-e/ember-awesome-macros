@@ -220,7 +220,7 @@ same as `Ember.computed.collect`, but allows composing
 ```js
 source1: 'my value 1',
 source2: 'my value 2',
-value: collect('source1', collect('source2')), // ['my value 1', ['my value 2']]
+value: collect('source1', collect('source2')) // ['my value 1', ['my value 2']]
 ```
 
 ##### `compact`
@@ -947,5 +947,5 @@ value2: writable(and('key1', 'key2'), {
 value3: writable(and('key1', 'key2'), function() {
   // do something
   return 'new value';
-}), // same as above, but shorthand
+}) // same as above, but shorthand
 ```
