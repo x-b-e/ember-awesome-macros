@@ -88,8 +88,8 @@ const promiseArray = deprecate(promise.array, 'promiseArray', 'promise.array');
 const promiseHash = deprecate(promise.hash, 'promiseHash', 'promise.hash');
 const promiseObject = deprecate(promise.object, 'promiseObject', 'promise.object');
 const promiseResolve = deprecate(promise.resolve, 'promiseResolve', 'promise.resolve');
-const substr = deprecate(string.substr, 'substr', 'array.substr');
-const substring = deprecate(string.substring, 'substring', 'array.substring');
+const substr = deprecate(string.substr, 'substr', 'string.substr');
+const substring = deprecate(string.substring, 'substring', 'string.substring');
 
 export {
   contains,
