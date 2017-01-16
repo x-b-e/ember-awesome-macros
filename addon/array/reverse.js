@@ -1,5 +1,5 @@
 import { normalizeArray } from './-utils';
 
-export default normalizeArray({}, (array) => {
+export default normalizeArray({}, array => {
   return array.slice().reverse();
 });
