@@ -120,6 +120,7 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`promise.hash`](#promisehash)
 * [`promise.object`](#promiseobject)
 * [`promise.resolve`](#promiseresolve)
+* [`promise.then`](#promisethen)
 
 ##### String
 * [`string.camelize`](#stringcamelize)
@@ -760,6 +761,18 @@ key2: computed(function() {
   return this.store.findRecord('user');
 }),
 promise2: promise.resolve(conditional('someBool', 'key1', 'key2')) // resolve an object if you don't know if it is a promise or not
+```
+
+##### `promise.then`
+calls `.then()` on a promise and then `.get` on the result
+
+```js
+key: 'firstName',
+userPromise: computed(function() {
+  return this.store.findRecord('user'); // { firstName: 'Mary' }
+}),
+
+firstName: promise.then('userPromise', 'key') // 'Mary'
 ```
 
 ##### `quotient`
