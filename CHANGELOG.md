@@ -1,5 +1,33 @@
 # Change Log
 
+## [v0.31.5](https://github.com/kellyselden/ember-awesome-macros/tree/v0.31.5) (2017-03-19)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.31.4...v0.31.5)
+
+**Closed issues:**
+
+- every\(mapBy\(\)\) does not recalculate when mapped properties change [\#263](https://github.com/kellyselden/ember-awesome-macros/issues/263)
+
+**Merged pull requests:**
+
+- polyfill uniqBy for older ember versions [\#268](https://github.com/kellyselden/ember-awesome-macros/pull/268) ([kellyselden](https://github.com/kellyselden))
+- convert uniqBy to integration test [\#267](https://github.com/kellyselden/ember-awesome-macros/pull/267) ([kellyselden](https://github.com/kellyselden))
+- remove unused value key [\#266](https://github.com/kellyselden/ember-awesome-macros/pull/266) ([kellyselden](https://github.com/kellyselden))
+- Update ember-macro-helpers to the latest version 🚀 [\#265](https://github.com/kellyselden/ember-awesome-macros/pull/265) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-source to the latest version 🚀 [\#261](https://github.com/kellyselden/ember-awesome-macros/pull/261) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-resolver to the latest version 🚀 [\#258](https://github.com/kellyselden/ember-awesome-macros/pull/258) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+
+## [v0.31.4](https://github.com/kellyselden/ember-awesome-macros/tree/v0.31.4) (2017-03-04)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.31.3...v0.31.4)
+
+**Closed issues:**
+
+- Pleeeeease add a changelog [\#253](https://github.com/kellyselden/ember-awesome-macros/issues/253)
+
+**Merged pull requests:**
+
+- update ember-string-ishtmlsafe-polyfill [\#256](https://github.com/kellyselden/ember-awesome-macros/pull/256) ([kellyselden](https://github.com/kellyselden))
+- add changelog [\#254](https://github.com/kellyselden/ember-awesome-macros/pull/254) ([kellyselden](https://github.com/kellyselden))
+
 ## [v0.31.3](https://github.com/kellyselden/ember-awesome-macros/tree/v0.31.3) (2017-02-26)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.31.2...v0.31.3)
 
