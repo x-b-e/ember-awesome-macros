@@ -1,7 +1,6 @@
 # ember-awesome-macros
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/kellyselden/ember-awesome-macros.svg)](https://greenkeeper.io/)
-
 [![npm version](https://badge.fury.io/js/ember-awesome-macros.svg)](https://badge.fury.io/js/ember-awesome-macros)
 [![Build Status](https://travis-ci.org/kellyselden/ember-awesome-macros.svg?branch=master)](https://travis-ci.org/kellyselden/ember-awesome-macros)
 [![dependencies Status](https://david-dm.org/kellyselden/ember-awesome-macros/status.svg)](https://david-dm.org/kellyselden/ember-awesome-macros)
