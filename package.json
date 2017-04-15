@@ -1,6 +1,6 @@
 {
   "name": "ember-awesome-macros",
-  "version": "0.31.6",
+  "version": "0.32.0",
   "description": "A collection of Ember computed macros",
   "keywords": [
     "ember-addon",
