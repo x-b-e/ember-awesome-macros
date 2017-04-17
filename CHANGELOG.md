@@ -1,5 +1,20 @@
 # Change Log
 
+## [v0.33.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.33.0) (2017-04-16)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.32.0...v0.33.0)
+
+**Closed issues:**
+
+- Support babel 6 [\#282](https://github.com/kellyselden/ember-awesome-macros/issues/282)
+- add tests for all the different import permutations [\#131](https://github.com/kellyselden/ember-awesome-macros/issues/131)
+
+**Merged pull requests:**
+
+- use broccoli file creator instead of babel plugin for math imports [\#290](https://github.com/kellyselden/ember-awesome-macros/pull/290) ([kellyselden](https://github.com/kellyselden))
+- remove custom math test now that we have import tests [\#289](https://github.com/kellyselden/ember-awesome-macros/pull/289) ([kellyselden](https://github.com/kellyselden))
+- moving tests to their real location now that deprecations are covered… [\#288](https://github.com/kellyselden/ember-awesome-macros/pull/288) ([kellyselden](https://github.com/kellyselden))
+- add tests for different import permutations [\#287](https://github.com/kellyselden/ember-awesome-macros/pull/287) ([kellyselden](https://github.com/kellyselden))
+
 ## [v0.32.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.32.0) (2017-04-15)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.31.6...v0.32.0)
 
@@ -44,6 +59,7 @@
 - remove unused value key [\#266](https://github.com/kellyselden/ember-awesome-macros/pull/266) ([kellyselden](https://github.com/kellyselden))
 - Update ember-macro-helpers to the latest version 🚀 [\#265](https://github.com/kellyselden/ember-awesome-macros/pull/265) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
 - Update ember-source to the latest version 🚀 [\#261](https://github.com/kellyselden/ember-awesome-macros/pull/261) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- add promise.then macro [\#260](https://github.com/kellyselden/ember-awesome-macros/pull/260) ([kellyselden](https://github.com/kellyselden))
 - Update ember-resolver to the latest version 🚀 [\#258](https://github.com/kellyselden/ember-awesome-macros/pull/258) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
 
 ## [v0.31.4](https://github.com/kellyselden/ember-awesome-macros/tree/v0.31.4) (2017-03-04)
@@ -57,6 +73,7 @@
 
 - update ember-string-ishtmlsafe-polyfill [\#256](https://github.com/kellyselden/ember-awesome-macros/pull/256) ([kellyselden](https://github.com/kellyselden))
 - add changelog [\#254](https://github.com/kellyselden/ember-awesome-macros/pull/254) ([kellyselden](https://github.com/kellyselden))
+- add create-class-computed ability [\#252](https://github.com/kellyselden/ember-awesome-macros/pull/252) ([kellyselden](https://github.com/kellyselden))
 
 ## [v0.31.3](https://github.com/kellyselden/ember-awesome-macros/tree/v0.31.3) (2017-02-26)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.31.2...v0.31.3)
