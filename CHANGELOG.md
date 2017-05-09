@@ -1,5 +1,88 @@
 # Change Log
 
+## [v0.35.3](https://github.com/kellyselden/ember-awesome-macros/tree/v0.35.3) (2017-05-05)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.35.2...v0.35.3)
+
+**Closed issues:**
+
+- reduce initial value is not recycled [\#257](https://github.com/kellyselden/ember-awesome-macros/issues/257)
+
+**Merged pull requests:**
+
+- allow factory functions in reduce [\#329](https://github.com/kellyselden/ember-awesome-macros/pull/329) ([kellyselden](https://github.com/kellyselden))
+
+## [v0.35.2](https://github.com/kellyselden/ember-awesome-macros/tree/v0.35.2) (2017-05-05)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.35.1...v0.35.2)
+
+**Merged pull requests:**
+
+- undo the import loop I introduced [\#328](https://github.com/kellyselden/ember-awesome-macros/pull/328) ([kellyselden](https://github.com/kellyselden))
+- add default import tests [\#327](https://github.com/kellyselden/ember-awesome-macros/pull/327) ([kellyselden](https://github.com/kellyselden))
+
+## [v0.35.1](https://github.com/kellyselden/ember-awesome-macros/tree/v0.35.1) (2017-05-03)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.35.0...v0.35.1)
+
+**Closed issues:**
+
+- `And` is broken in latest version \(0.35.0\) [\#323](https://github.com/kellyselden/ember-awesome-macros/issues/323)
+- eq\('key', 0\) doesn't seem to work [\#322](https://github.com/kellyselden/ember-awesome-macros/issues/322)
+
+**Merged pull requests:**
+
+- fix and, or, and equal [\#325](https://github.com/kellyselden/ember-awesome-macros/pull/325) ([kellyselden](https://github.com/kellyselden))
+- Update ember-cli to the latest version 🚀 [\#324](https://github.com/kellyselden/ember-awesome-macros/pull/324) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+
+## [v0.35.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.35.0) (2017-04-30)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.34.1...v0.35.0)
+
+**Closed issues:**
+
+- `conditional` computes unnecessary property [\#275](https://github.com/kellyselden/ember-awesome-macros/issues/275)
+
+**Merged pull requests:**
+
+- chore\(package\): update ember-cli to version 2.13.0 [\#321](https://github.com/kellyselden/ember-awesome-macros/pull/321) ([kellyselden](https://github.com/kellyselden))
+- Update ember-macro-helpers to the latest version 🚀 [\#318](https://github.com/kellyselden/ember-awesome-macros/pull/318) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- check that array macros are already lazy [\#317](https://github.com/kellyselden/ember-awesome-macros/pull/317) ([kellyselden](https://github.com/kellyselden))
+- remove jshint references [\#316](https://github.com/kellyselden/ember-awesome-macros/pull/316) ([kellyselden](https://github.com/kellyselden))
+- move without unit test to integration test [\#315](https://github.com/kellyselden/ember-awesome-macros/pull/315) ([kellyselden](https://github.com/kellyselden))
+- move slice unit test to integration test [\#314](https://github.com/kellyselden/ember-awesome-macros/pull/314) ([kellyselden](https://github.com/kellyselden))
+- move index of unit tests to integration tests [\#311](https://github.com/kellyselden/ember-awesome-macros/pull/311) ([kellyselden](https://github.com/kellyselden))
+- verify sort doesn't mutate array [\#310](https://github.com/kellyselden/ember-awesome-macros/pull/310) ([kellyselden](https://github.com/kellyselden))
+- verify reverse doesn't mutate array [\#309](https://github.com/kellyselden/ember-awesome-macros/pull/309) ([kellyselden](https://github.com/kellyselden))
+- move compact unit test to integration test [\#308](https://github.com/kellyselden/ember-awesome-macros/pull/308) ([kellyselden](https://github.com/kellyselden))
+- add safelyCreateComputed test [\#307](https://github.com/kellyselden/ember-awesome-macros/pull/307) ([kellyselden](https://github.com/kellyselden))
+- add missing substr and substring tests [\#306](https://github.com/kellyselden/ember-awesome-macros/pull/306) ([kellyselden](https://github.com/kellyselden))
+- use conditional as base for unless [\#305](https://github.com/kellyselden/ember-awesome-macros/pull/305) ([kellyselden](https://github.com/kellyselden))
+- use not and equal as the base for notEqual [\#304](https://github.com/kellyselden/ember-awesome-macros/pull/304) ([kellyselden](https://github.com/kellyselden))
+- and/or test cleanup [\#303](https://github.com/kellyselden/ember-awesome-macros/pull/303) ([kellyselden](https://github.com/kellyselden))
+
+## [v0.34.1](https://github.com/kellyselden/ember-awesome-macros/tree/v0.34.1) (2017-04-28)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.34.0...v0.34.1)
+
+**Merged pull requests:**
+
+- use lazy computed [\#319](https://github.com/kellyselden/ember-awesome-macros/pull/319) ([kellyselden](https://github.com/kellyselden))
+- Update ember-macro-helpers to the latest version 🚀 [\#302](https://github.com/kellyselden/ember-awesome-macros/pull/302) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-source to the latest version 🚀 [\#301](https://github.com/kellyselden/ember-awesome-macros/pull/301) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+
+## [v0.34.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.34.0) (2017-04-24)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.33.0...v0.34.0)
+
+**Closed issues:**
+
+- add escapeExpression macro [\#295](https://github.com/kellyselden/ember-awesome-macros/issues/295)
+- add titleize macro [\#294](https://github.com/kellyselden/ember-awesome-macros/issues/294)
+
+**Merged pull requests:**
+
+- add missing escapeExpression import test [\#300](https://github.com/kellyselden/ember-awesome-macros/pull/300) ([kellyselden](https://github.com/kellyselden))
+- add titleize macro [\#299](https://github.com/kellyselden/ember-awesome-macros/pull/299) ([kellyselden](https://github.com/kellyselden))
+- add escapeExpression macro [\#297](https://github.com/kellyselden/ember-awesome-macros/pull/297) ([kellyselden](https://github.com/kellyselden))
+- better and less redundant import tests [\#296](https://github.com/kellyselden/ember-awesome-macros/pull/296) ([kellyselden](https://github.com/kellyselden))
+- Update ember-cli to the latest version 🚀 [\#293](https://github.com/kellyselden/ember-awesome-macros/pull/293) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-cli-babel to the latest version 🚀 [\#292](https://github.com/kellyselden/ember-awesome-macros/pull/292) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+
 ## [v0.33.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.33.0) (2017-04-16)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.32.0...v0.33.0)
 
