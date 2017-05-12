@@ -1,5 +1,18 @@
 # Change Log
 
+## [v0.36.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.36.0) (2017-05-12)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.35.3...v0.36.0)
+
+**Closed issues:**
+
+- array.filterBy error in 0.35.3 [\#330](https://github.com/kellyselden/ember-awesome-macros/issues/330)
+
+**Merged pull requests:**
+
+- chore\(package\): update ember-cli-htmlbars to version 2.0.1 [\#334](https://github.com/kellyselden/ember-awesome-macros/pull/334) ([kellyselden](https://github.com/kellyselden))
+- add array.rejectBy [\#332](https://github.com/kellyselden/ember-awesome-macros/pull/332) ([marcoow](https://github.com/marcoow))
+- Update ember-macro-test-helpers to the latest version 🚀 [\#331](https://github.com/kellyselden/ember-awesome-macros/pull/331) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+
 ## [v0.35.3](https://github.com/kellyselden/ember-awesome-macros/tree/v0.35.3) (2017-05-05)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.35.2...v0.35.3)
 
