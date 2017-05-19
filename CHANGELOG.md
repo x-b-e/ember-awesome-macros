@@ -1,5 +1,19 @@
 # Change Log
 
+## [v0.36.1](https://github.com/kellyselden/ember-awesome-macros/tree/v0.36.1) (2017-05-19)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.36.0...v0.36.1)
+
+**Closed issues:**
+
+- Composing array macros breaks property observer chain [\#337](https://github.com/kellyselden/ember-awesome-macros/issues/337)
+- Composing array macros from promise properties [\#336](https://github.com/kellyselden/ember-awesome-macros/issues/336)
+
+**Merged pull requests:**
+
+- Update ember-macro-helpers to the latest version 🚀 [\#340](https://github.com/kellyselden/ember-awesome-macros/pull/340) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-cli to the latest version 🚀 [\#339](https://github.com/kellyselden/ember-awesome-macros/pull/339) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-cli-dependency-checker to the latest version 🚀 [\#335](https://github.com/kellyselden/ember-awesome-macros/pull/335) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+
 ## [v0.36.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.36.0) (2017-05-12)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.35.3...v0.36.0)
 
