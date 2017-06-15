@@ -582,7 +582,7 @@ source1: 3,
 source2: 2,
 source3: 1,
 value1: difference('source1', 'source2', 'source3'), // 0
-value2: difference('source1', difference('source2', 'source3')) // 2
+value2: difference('source1', collect('source2', 'source3')) // 2
 ```
 
 ##### `divide`
@@ -786,7 +786,7 @@ source1: 1,
 source2: 2,
 source3: 3,
 value1: product('source1', 'source2', 'source3'), // 6
-value2: product('source1', product('source2', 'source3')) // 6
+value2: product('source1', collect('source2', 'source3')) // 6
 ```
 
 ##### `promise.all`
@@ -884,7 +884,7 @@ source1: 3,
 source2: 2,
 source3: 1,
 value1: quotient('source1', 'source2', 'source3'), // 1.5
-value2: quotient('source1', quotient('source2', 'source3')) // 1.5
+value2: quotient('source1', collect('source2', 'source3')) // 1.5
 ```
 
 ##### `string.camelize`
@@ -1069,7 +1069,7 @@ source1: 1,
 source2: 2,
 source3: 3,
 value1: sum('source1', 'source2', 'source3'), // 6
-value2: sum('source1', sum('source2', 'source3')) // 6
+value2: sum('source1', collect('source2', 'source3')) // 6
 ```
 
 ##### `tag`
