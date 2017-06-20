@@ -1,5 +1,25 @@
 # Change Log
 
+## [v0.37.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.37.0) (2017-06-20)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.36.1...v0.37.0)
+
+**Closed issues:**
+
+- An in-range update of loader.js is breaking the build 🚨 [\#350](https://github.com/kellyselden/ember-awesome-macros/issues/350)
+- Failing test using macro that depends on relationship property [\#344](https://github.com/kellyselden/ember-awesome-macros/issues/344)
+- sum doesn't accept an array [\#341](https://github.com/kellyselden/ember-awesome-macros/issues/341)
+- Missing Dependent Keys [\#338](https://github.com/kellyselden/ember-awesome-macros/issues/338)
+
+**Merged pull requests:**
+
+- Update ember-cli-eslint to the latest version 🚀 [\#351](https://github.com/kellyselden/ember-awesome-macros/pull/351) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- getBy: Fix missing dependencies support [\#349](https://github.com/kellyselden/ember-awesome-macros/pull/349) ([mriska](https://github.com/mriska))
+- allow arrays into the arithmetic macros [\#348](https://github.com/kellyselden/ember-awesome-macros/pull/348) ([kellyselden](https://github.com/kellyselden))
+- fix typos in readme [\#347](https://github.com/kellyselden/ember-awesome-macros/pull/347) ([kellyselden](https://github.com/kellyselden))
+- sane already extends eslint:recommended [\#346](https://github.com/kellyselden/ember-awesome-macros/pull/346) ([kellyselden](https://github.com/kellyselden))
+- add eslint-config-sane rules [\#345](https://github.com/kellyselden/ember-awesome-macros/pull/345) ([kellyselden](https://github.com/kellyselden))
+- Add groupBy macro [\#343](https://github.com/kellyselden/ember-awesome-macros/pull/343) ([Fed03](https://github.com/Fed03))
+
 ## [v0.36.1](https://github.com/kellyselden/ember-awesome-macros/tree/v0.36.1) (2017-05-19)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.36.0...v0.36.1)
 
@@ -10,9 +30,9 @@
 
 **Merged pull requests:**
 
-- Update ember-macro-helpers to the latest version 🚀 [\#340](https://github.com/kellyselden/ember-awesome-macros/pull/340) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
-- Update ember-cli to the latest version 🚀 [\#339](https://github.com/kellyselden/ember-awesome-macros/pull/339) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
-- Update ember-cli-dependency-checker to the latest version 🚀 [\#335](https://github.com/kellyselden/ember-awesome-macros/pull/335) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#340](https://github.com/kellyselden/ember-awesome-macros/pull/340) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ember-cli to the latest version 🚀 [\#339](https://github.com/kellyselden/ember-awesome-macros/pull/339) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ember-cli-dependency-checker to the latest version 🚀 [\#335](https://github.com/kellyselden/ember-awesome-macros/pull/335) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v0.36.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.36.0) (2017-05-12)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.35.3...v0.36.0)
@@ -25,7 +45,7 @@
 
 - chore\(package\): update ember-cli-htmlbars to version 2.0.1 [\#334](https://github.com/kellyselden/ember-awesome-macros/pull/334) ([kellyselden](https://github.com/kellyselden))
 - add array.rejectBy [\#332](https://github.com/kellyselden/ember-awesome-macros/pull/332) ([marcoow](https://github.com/marcoow))
-- Update ember-macro-test-helpers to the latest version 🚀 [\#331](https://github.com/kellyselden/ember-awesome-macros/pull/331) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-test-helpers to the latest version 🚀 [\#331](https://github.com/kellyselden/ember-awesome-macros/pull/331) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v0.35.3](https://github.com/kellyselden/ember-awesome-macros/tree/v0.35.3) (2017-05-05)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.35.2...v0.35.3)
@@ -57,7 +77,7 @@
 **Merged pull requests:**
 
 - fix and, or, and equal [\#325](https://github.com/kellyselden/ember-awesome-macros/pull/325) ([kellyselden](https://github.com/kellyselden))
-- Update ember-cli to the latest version 🚀 [\#324](https://github.com/kellyselden/ember-awesome-macros/pull/324) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-cli to the latest version 🚀 [\#324](https://github.com/kellyselden/ember-awesome-macros/pull/324) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v0.35.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.35.0) (2017-04-30)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.34.1...v0.35.0)
@@ -69,7 +89,7 @@
 **Merged pull requests:**
 
 - chore\(package\): update ember-cli to version 2.13.0 [\#321](https://github.com/kellyselden/ember-awesome-macros/pull/321) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-helpers to the latest version 🚀 [\#318](https://github.com/kellyselden/ember-awesome-macros/pull/318) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#318](https://github.com/kellyselden/ember-awesome-macros/pull/318) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - check that array macros are already lazy [\#317](https://github.com/kellyselden/ember-awesome-macros/pull/317) ([kellyselden](https://github.com/kellyselden))
 - remove jshint references [\#316](https://github.com/kellyselden/ember-awesome-macros/pull/316) ([kellyselden](https://github.com/kellyselden))
 - move without unit test to integration test [\#315](https://github.com/kellyselden/ember-awesome-macros/pull/315) ([kellyselden](https://github.com/kellyselden))
@@ -90,8 +110,8 @@
 **Merged pull requests:**
 
 - use lazy computed [\#319](https://github.com/kellyselden/ember-awesome-macros/pull/319) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-helpers to the latest version 🚀 [\#302](https://github.com/kellyselden/ember-awesome-macros/pull/302) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
-- Update ember-source to the latest version 🚀 [\#301](https://github.com/kellyselden/ember-awesome-macros/pull/301) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#302](https://github.com/kellyselden/ember-awesome-macros/pull/302) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ember-source to the latest version 🚀 [\#301](https://github.com/kellyselden/ember-awesome-macros/pull/301) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v0.34.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.34.0) (2017-04-24)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.33.0...v0.34.0)
@@ -107,8 +127,8 @@
 - add titleize macro [\#299](https://github.com/kellyselden/ember-awesome-macros/pull/299) ([kellyselden](https://github.com/kellyselden))
 - add escapeExpression macro [\#297](https://github.com/kellyselden/ember-awesome-macros/pull/297) ([kellyselden](https://github.com/kellyselden))
 - better and less redundant import tests [\#296](https://github.com/kellyselden/ember-awesome-macros/pull/296) ([kellyselden](https://github.com/kellyselden))
-- Update ember-cli to the latest version 🚀 [\#293](https://github.com/kellyselden/ember-awesome-macros/pull/293) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
-- Update ember-cli-babel to the latest version 🚀 [\#292](https://github.com/kellyselden/ember-awesome-macros/pull/292) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-cli to the latest version 🚀 [\#293](https://github.com/kellyselden/ember-awesome-macros/pull/293) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ember-cli-babel to the latest version 🚀 [\#292](https://github.com/kellyselden/ember-awesome-macros/pull/292) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v0.33.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.33.0) (2017-04-16)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.32.0...v0.33.0)
@@ -134,10 +154,10 @@
 
 **Merged pull requests:**
 
-- Update ember-macro-helpers to the latest version 🚀 [\#286](https://github.com/kellyselden/ember-awesome-macros/pull/286) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#286](https://github.com/kellyselden/ember-awesome-macros/pull/286) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - clean up invoke test [\#285](https://github.com/kellyselden/ember-awesome-macros/pull/285) ([kellyselden](https://github.com/kellyselden))
 - add reduce test [\#284](https://github.com/kellyselden/ember-awesome-macros/pull/284) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-helpers to the latest version 🚀 [\#283](https://github.com/kellyselden/ember-awesome-macros/pull/283) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#283](https://github.com/kellyselden/ember-awesome-macros/pull/283) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - move unit tests [\#280](https://github.com/kellyselden/ember-awesome-macros/pull/280) ([kellyselden](https://github.com/kellyselden))
 - move tests from unit to integration [\#279](https://github.com/kellyselden/ember-awesome-macros/pull/279) ([kellyselden](https://github.com/kellyselden))
 - move uniq test from unit to integration [\#277](https://github.com/kellyselden/ember-awesome-macros/pull/277) ([kellyselden](https://github.com/kellyselden))
@@ -149,11 +169,11 @@
 **Merged pull requests:**
 
 - allow property watching with array macros [\#278](https://github.com/kellyselden/ember-awesome-macros/pull/278) ([kellyselden](https://github.com/kellyselden))
-- Add Greenkeeper badge 🌴 [\#274](https://github.com/kellyselden/ember-awesome-macros/pull/274) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Add Greenkeeper badge 🌴 [\#274](https://github.com/kellyselden/ember-awesome-macros/pull/274) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - chore\(package\): update ember-cli to version 2.12.1 [\#273](https://github.com/kellyselden/ember-awesome-macros/pull/273) ([kellyselden](https://github.com/kellyselden))
-- Update ember-sinon to the latest version 🚀 [\#272](https://github.com/kellyselden/ember-awesome-macros/pull/272) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
-- Update ember-load-initializers to the latest version 🚀 [\#271](https://github.com/kellyselden/ember-awesome-macros/pull/271) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
-- Update ember-resolver to the latest version 🚀 [\#270](https://github.com/kellyselden/ember-awesome-macros/pull/270) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-sinon to the latest version 🚀 [\#272](https://github.com/kellyselden/ember-awesome-macros/pull/272) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ember-load-initializers to the latest version 🚀 [\#271](https://github.com/kellyselden/ember-awesome-macros/pull/271) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ember-resolver to the latest version 🚀 [\#270](https://github.com/kellyselden/ember-awesome-macros/pull/270) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v0.31.5](https://github.com/kellyselden/ember-awesome-macros/tree/v0.31.5) (2017-03-19)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.31.4...v0.31.5)
@@ -167,10 +187,10 @@
 - polyfill uniqBy for older ember versions [\#268](https://github.com/kellyselden/ember-awesome-macros/pull/268) ([kellyselden](https://github.com/kellyselden))
 - convert uniqBy to integration test [\#267](https://github.com/kellyselden/ember-awesome-macros/pull/267) ([kellyselden](https://github.com/kellyselden))
 - remove unused value key [\#266](https://github.com/kellyselden/ember-awesome-macros/pull/266) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-helpers to the latest version 🚀 [\#265](https://github.com/kellyselden/ember-awesome-macros/pull/265) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
-- Update ember-source to the latest version 🚀 [\#261](https://github.com/kellyselden/ember-awesome-macros/pull/261) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#265](https://github.com/kellyselden/ember-awesome-macros/pull/265) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ember-source to the latest version 🚀 [\#261](https://github.com/kellyselden/ember-awesome-macros/pull/261) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - add promise.then macro [\#260](https://github.com/kellyselden/ember-awesome-macros/pull/260) ([kellyselden](https://github.com/kellyselden))
-- Update ember-resolver to the latest version 🚀 [\#258](https://github.com/kellyselden/ember-awesome-macros/pull/258) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-resolver to the latest version 🚀 [\#258](https://github.com/kellyselden/ember-awesome-macros/pull/258) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v0.31.4](https://github.com/kellyselden/ember-awesome-macros/tree/v0.31.4) (2017-03-04)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.31.3...v0.31.4)
@@ -205,7 +225,7 @@
 
 - remove broccoli-asset-rev [\#246](https://github.com/kellyselden/ember-awesome-macros/pull/246) ([kellyselden](https://github.com/kellyselden))
 - remove ember-cli-app-version [\#245](https://github.com/kellyselden/ember-awesome-macros/pull/245) ([kellyselden](https://github.com/kellyselden))
-- Update ember-cli to the latest version 🚀 [\#243](https://github.com/kellyselden/ember-awesome-macros/pull/243) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-cli to the latest version 🚀 [\#243](https://github.com/kellyselden/ember-awesome-macros/pull/243) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v0.31.1](https://github.com/kellyselden/ember-awesome-macros/tree/v0.31.1) (2017-02-01)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.31.0...v0.31.1)
@@ -233,7 +253,7 @@
 - remove ember-cli-htmlbars-inline-precompile [\#230](https://github.com/kellyselden/ember-awesome-macros/pull/230) ([kellyselden](https://github.com/kellyselden))
 - remove ember-ajax [\#229](https://github.com/kellyselden/ember-awesome-macros/pull/229) ([kellyselden](https://github.com/kellyselden))
 - ember-cli@2.11.0 [\#228](https://github.com/kellyselden/ember-awesome-macros/pull/228) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-helpers to the latest version 🚀 [\#227](https://github.com/kellyselden/ember-awesome-macros/pull/227) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#227](https://github.com/kellyselden/ember-awesome-macros/pull/227) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - use curriedComputed from upstream [\#226](https://github.com/kellyselden/ember-awesome-macros/pull/226) ([kellyselden](https://github.com/kellyselden))
 - chore\(package\): update ember-macro-test-helpers to version 2.1.0 [\#225](https://github.com/kellyselden/ember-awesome-macros/pull/225) ([kellyselden](https://github.com/kellyselden))
 - fix\(package\): update ember-macro-helpers to version 0.8.0 [\#224](https://github.com/kellyselden/ember-awesome-macros/pull/224) ([kellyselden](https://github.com/kellyselden))
@@ -254,7 +274,7 @@
 - test name typo fixes [\#219](https://github.com/kellyselden/ember-awesome-macros/pull/219) ([kellyselden](https://github.com/kellyselden))
 - use normalizeArrayKey from ember-macro-helpers [\#216](https://github.com/kellyselden/ember-awesome-macros/pull/216) ([kellyselden](https://github.com/kellyselden))
 - float ember-macro-helpers version [\#215](https://github.com/kellyselden/ember-awesome-macros/pull/215) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-helpers to the latest version 🚀 [\#214](https://github.com/kellyselden/ember-awesome-macros/pull/214) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#214](https://github.com/kellyselden/ember-awesome-macros/pull/214) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - ember-cli@2.10.1 [\#213](https://github.com/kellyselden/ember-awesome-macros/pull/213) ([kellyselden](https://github.com/kellyselden))
 
 ## [v0.29.1](https://github.com/kellyselden/ember-awesome-macros/tree/v0.29.1) (2017-01-18)
@@ -314,10 +334,10 @@
 - simplify reduceKeys [\#192](https://github.com/kellyselden/ember-awesome-macros/pull/192) ([kellyselden](https://github.com/kellyselden))
 - privatizing utils [\#191](https://github.com/kellyselden/ember-awesome-macros/pull/191) ([kellyselden](https://github.com/kellyselden))
 - moving htmlSafe and isHtmlSafe into the string namespace [\#190](https://github.com/kellyselden/ember-awesome-macros/pull/190) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-helpers to the latest version 🚀 [\#189](https://github.com/kellyselden/ember-awesome-macros/pull/189) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#189](https://github.com/kellyselden/ember-awesome-macros/pull/189) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - remove ember-data [\#187](https://github.com/kellyselden/ember-awesome-macros/pull/187) ([kellyselden](https://github.com/kellyselden))
 - update description [\#186](https://github.com/kellyselden/ember-awesome-macros/pull/186) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-helpers to the latest version 🚀 [\#185](https://github.com/kellyselden/ember-awesome-macros/pull/185) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#185](https://github.com/kellyselden/ember-awesome-macros/pull/185) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - Typo: quotient doesn't subtract numbers [\#184](https://github.com/kellyselden/ember-awesome-macros/pull/184) ([mriska](https://github.com/mriska))
 - add another import rewriting test [\#183](https://github.com/kellyselden/ember-awesome-macros/pull/183) ([kellyselden](https://github.com/kellyselden))
 
@@ -344,11 +364,11 @@
 **Merged pull requests:**
 
 - deprecate extracted functions [\#176](https://github.com/kellyselden/ember-awesome-macros/pull/176) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-helpers to the latest version 🚀 [\#175](https://github.com/kellyselden/ember-awesome-macros/pull/175) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-helpers to the latest version 🚀 [\#175](https://github.com/kellyselden/ember-awesome-macros/pull/175) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - Intergration [\#174](https://github.com/kellyselden/ember-awesome-macros/pull/174) ([kellyselden](https://github.com/kellyselden))
 - test wording fix [\#173](https://github.com/kellyselden/ember-awesome-macros/pull/173) ([kellyselden](https://github.com/kellyselden))
-- Update ember-macro-test-helpers to the latest version 🚀 [\#172](https://github.com/kellyselden/ember-awesome-macros/pull/172) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
-- Update dependencies to enable Greenkeeper 🌴 [\#171](https://github.com/kellyselden/ember-awesome-macros/pull/171) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update ember-macro-test-helpers to the latest version 🚀 [\#172](https://github.com/kellyselden/ember-awesome-macros/pull/172) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update dependencies to enable Greenkeeper 🌴 [\#171](https://github.com/kellyselden/ember-awesome-macros/pull/171) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - extract code to ember-macro-helpers [\#167](https://github.com/kellyselden/ember-awesome-macros/pull/167) ([kellyselden](https://github.com/kellyselden))
 - update ember-macro-helpers [\#166](https://github.com/kellyselden/ember-awesome-macros/pull/166) ([kellyselden](https://github.com/kellyselden))
 - extract `compute` test helper [\#165](https://github.com/kellyselden/ember-awesome-macros/pull/165) ([kellyselden](https://github.com/kellyselden))
