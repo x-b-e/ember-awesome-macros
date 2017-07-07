@@ -1,5 +1,20 @@
 # Change Log
 
+## [v0.38.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.0) (2017-07-07)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.37.0...v0.38.0)
+
+**Closed issues:**
+
+- mapBy: Dependent keys containing @each only work one level deep [\#355](https://github.com/kellyselden/ember-awesome-macros/issues/355)
+
+**Merged pull requests:**
+
+- Update ember-macro-helpers to the latest version 🚀 [\#361](https://github.com/kellyselden/ember-awesome-macros/pull/361) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ember-source to the latest version 🚀 [\#359](https://github.com/kellyselden/ember-awesome-macros/pull/359) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Use new module imports [\#358](https://github.com/kellyselden/ember-awesome-macros/pull/358) ([Turbo87](https://github.com/Turbo87))
+- Fix in documentation for `array.reduce` [\#357](https://github.com/kellyselden/ember-awesome-macros/pull/357) ([YoranBrondsema](https://github.com/YoranBrondsema))
+- "ember-cli": "2.13.3" [\#354](https://github.com/kellyselden/ember-awesome-macros/pull/354) ([kellyselden](https://github.com/kellyselden))
+
 ## [v0.37.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.37.0) (2017-06-20)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.36.1...v0.37.0)
 
