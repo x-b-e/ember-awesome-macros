@@ -1,5 +1,32 @@
 # Change Log
 
+## [v0.38.2](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.2) (2017-07-27)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.1...v0.38.2)
+
+**Closed issues:**
+
+- filterBy and rejectBy without value operand [\#362](https://github.com/kellyselden/ember-awesome-macros/issues/362)
+- array.isEvery does not check for true by default [\#342](https://github.com/kellyselden/ember-awesome-macros/issues/342)
+
+**Merged pull requests:**
+
+- chore\(package\): update ember-cli to version 2.14.1 [\#370](https://github.com/kellyselden/ember-awesome-macros/pull/370) ([kellyselden](https://github.com/kellyselden))
+- try latest firefox [\#369](https://github.com/kellyselden/ember-awesome-macros/pull/369) ([kellyselden](https://github.com/kellyselden))
+- allow optional args with filterBy and rejectBy [\#364](https://github.com/kellyselden/ember-awesome-macros/pull/364) ([kellyselden](https://github.com/kellyselden))
+
+## [v0.38.1](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.1) (2017-07-22)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.0...v0.38.1)
+
+**Closed issues:**
+
+- array macros have default value copying issue [\#365](https://github.com/kellyselden/ember-awesome-macros/issues/365)
+- Hash merge is missing [\#281](https://github.com/kellyselden/ember-awesome-macros/issues/281)
+
+**Merged pull requests:**
+
+- remove unused args in tests [\#367](https://github.com/kellyselden/ember-awesome-macros/pull/367) ([kellyselden](https://github.com/kellyselden))
+- copy array default value [\#366](https://github.com/kellyselden/ember-awesome-macros/pull/366) ([kellyselden](https://github.com/kellyselden))
+
 ## [v0.38.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.0) (2017-07-07)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.37.0...v0.38.0)
 
