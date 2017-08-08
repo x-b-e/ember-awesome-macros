@@ -1,5 +1,16 @@
 # Change Log
 
+## [v0.38.3](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.3) (2017-08-08)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.2...v0.38.3)
+
+**Closed issues:**
+
+- Feature Request: array.sortBy [\#372](https://github.com/kellyselden/ember-awesome-macros/issues/372)
+
+**Merged pull requests:**
+
+- Update ember-string-ishtmlsafe-polyfill to the latest version 🚀 [\#374](https://github.com/kellyselden/ember-awesome-macros/pull/374) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v0.38.2](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.2) (2017-07-27)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.1...v0.38.2)
 
