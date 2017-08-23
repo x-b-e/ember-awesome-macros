@@ -146,6 +146,9 @@ import { nameOfMacro } from 'ember-awesome-macros';
 * [`string.toUpper`](#stringtoupper)
 * [`string.underscore`](#stringunderscore)
 
+#### Custom macros
+See [https://github.com/kellyselden/ember-macro-helpers#custom-macros].
+
 #### Details
 
 ##### `add`
