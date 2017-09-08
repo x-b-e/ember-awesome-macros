@@ -115,3 +115,17 @@ test('composable: it returns item if found', function(assert) {
     strictEqual: expected
   });
 });
+
+test('it handles native arrays', function(assert) {
+  let expected = { test: 'val2' };
+  compute({
+    assert,
+    computed: findBy('array', 'key', 'value'),
+    properties: {
+      array: [{ test: 'val1' }, expected],
+      key: 'test',
+      value: 'val2'
+    },
+    strictEqual: expected
+  });
+});
