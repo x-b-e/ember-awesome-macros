@@ -55,9 +55,7 @@ test('it calls prop on array', function(assert) {
     assert,
     computed: computed('array'),
     properties: {
-      array: [1, 2, 3],
-      firstParam,
-      secondParam
+      array: [1, 2, 3]
     },
     strictEqual: 3
   });
