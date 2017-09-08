@@ -1,5 +1,37 @@
 # Change Log
 
+## [v0.38.6](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.6) (2017-09-08)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.5...v0.38.6)
+
+**Merged pull requests:**
+
+- Update ember-macro-helpers to the latest version 🚀 [\#392](https://github.com/kellyselden/ember-awesome-macros/pull/392) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Make array macros work with native JS arrays [\#384](https://github.com/kellyselden/ember-awesome-macros/pull/384) ([marcoow](https://github.com/marcoow))
+
+## [v0.38.5](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.5) (2017-09-07)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.4...v0.38.5)
+
+**Merged pull requests:**
+
+- allow travis to run tagged builds [\#391](https://github.com/kellyselden/ember-awesome-macros/pull/391) ([kellyselden](https://github.com/kellyselden))
+- getBy simplification [\#390](https://github.com/kellyselden/ember-awesome-macros/pull/390) ([kellyselden](https://github.com/kellyselden))
+
+## [v0.38.4](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.4) (2017-09-05)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.3...v0.38.4)
+
+**Closed issues:**
+
+- "largest" option to only display largest n units [\#377](https://github.com/kellyselden/ember-awesome-macros/issues/377)
+
+**Merged pull requests:**
+
+- remove optional params [\#387](https://github.com/kellyselden/ember-awesome-macros/pull/387) ([kellyselden](https://github.com/kellyselden))
+- Update ember-source to the latest version 🚀 [\#385](https://github.com/kellyselden/ember-awesome-macros/pull/385) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ember-sinon to the latest version 🚀 [\#382](https://github.com/kellyselden/ember-awesome-macros/pull/382) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- add deploy stage [\#381](https://github.com/kellyselden/ember-awesome-macros/pull/381) ([kellyselden](https://github.com/kellyselden))
+- exclude branches [\#380](https://github.com/kellyselden/ember-awesome-macros/pull/380) ([kellyselden](https://github.com/kellyselden))
+- Add a section in the README on how to make custom macros [\#376](https://github.com/kellyselden/ember-awesome-macros/pull/376) ([YoranBrondsema](https://github.com/YoranBrondsema))
+
 ## [v0.38.3](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.3) (2017-08-08)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.2...v0.38.3)
 
