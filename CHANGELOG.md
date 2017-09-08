@@ -1,5 +1,15 @@
 # Change Log
 
+## [v0.39.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.39.0) (2017-09-08)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.6...v0.39.0)
+
+**Merged pull requests:**
+
+- convert normalizeArray uses to normalizeArray2 [\#396](https://github.com/kellyselden/ember-awesome-macros/pull/396) ([kellyselden](https://github.com/kellyselden))
+- default value type checking fixes [\#395](https://github.com/kellyselden/ember-awesome-macros/pull/395) ([kellyselden](https://github.com/kellyselden))
+- use ember array's includes method [\#394](https://github.com/kellyselden/ember-awesome-macros/pull/394) ([kellyselden](https://github.com/kellyselden))
+- normalizeArray2 array macro code reuse [\#393](https://github.com/kellyselden/ember-awesome-macros/pull/393) ([kellyselden](https://github.com/kellyselden))
+
 ## [v0.38.6](https://github.com/kellyselden/ember-awesome-macros/tree/v0.38.6) (2017-09-08)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.5...v0.38.6)
 
