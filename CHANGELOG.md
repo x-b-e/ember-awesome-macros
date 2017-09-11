@@ -1,5 +1,18 @@
 # Change Log
 
+## [v0.40.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.40.0) (2017-09-11)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.39.0...v0.40.0)
+
+**Merged pull requests:**
+
+- add native array test [\#403](https://github.com/kellyselden/ember-awesome-macros/pull/403) ([kellyselden](https://github.com/kellyselden))
+- add a lazy calc test [\#402](https://github.com/kellyselden/ember-awesome-macros/pull/402) ([kellyselden](https://github.com/kellyselden))
+- assert this value [\#401](https://github.com/kellyselden/ember-awesome-macros/pull/401) ([kellyselden](https://github.com/kellyselden))
+- create normalizeArray3 for createClassComputed reuse [\#400](https://github.com/kellyselden/ember-awesome-macros/pull/400) ([kellyselden](https://github.com/kellyselden))
+- reuse getDefaultValue [\#399](https://github.com/kellyselden/ember-awesome-macros/pull/399) ([kellyselden](https://github.com/kellyselden))
+- ArrayProxy fix [\#398](https://github.com/kellyselden/ember-awesome-macros/pull/398) ([kellyselden](https://github.com/kellyselden))
+- update ember-cli 2.15.1 [\#397](https://github.com/kellyselden/ember-awesome-macros/pull/397) ([kellyselden](https://github.com/kellyselden))
+
 ## [v0.39.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.39.0) (2017-09-08)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.38.6...v0.39.0)
 
