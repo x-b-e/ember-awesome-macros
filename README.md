@@ -1,4 +1,4 @@
-# ember-awesome-macros
+ember-awesome-macros
 ==============================================================================
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/kellyselden/ember-awesome-macros.svg)](https://greenkeeper.io/)
