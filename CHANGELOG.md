@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.0.0](https://github.com/kellyselden/ember-awesome-macros/tree/v1.0.0) (2018-05-09)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.44.0...v1.0.0)
+
+**Merged pull requests:**
+
+- Update dependency ember-macro-helpers to v1 [\#482](https://github.com/kellyselden/ember-awesome-macros/pull/482) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [v0.44.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.44.0) (2018-05-09)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.43.0...v0.44.0)
 
