@@ -1,5 +1,64 @@
 # Change Log
 
+## [v0.44.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.44.0) (2018-05-09)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.43.0...v0.44.0)
+
+**Closed issues:**
+
+- Add string.concat? [\#480](https://github.com/kellyselden/ember-awesome-macros/issues/480)
+
+**Merged pull requests:**
+
+- update ember-macro-test-helpers imports [\#479](https://github.com/kellyselden/ember-awesome-macros/pull/479) ([kellyselden](https://github.com/kellyselden))
+- update ember-macro-helpers imports [\#478](https://github.com/kellyselden/ember-awesome-macros/pull/478) ([kellyselden](https://github.com/kellyselden))
+- Update dependency ember-macro-helpers to ^0.20.0 [\#477](https://github.com/kellyselden/ember-awesome-macros/pull/477) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency ember-macro-helpers to ^0.19.0 [\#476](https://github.com/kellyselden/ember-awesome-macros/pull/476) ([renovate[bot]](https://github.com/apps/renovate))
+- use ember-macro-test-helpers/expect-imports [\#474](https://github.com/kellyselden/ember-awesome-macros/pull/474) ([kellyselden](https://github.com/kellyselden))
+
+## [v0.43.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.43.0) (2018-05-06)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.42.0...v0.43.0)
+
+**Closed issues:**
+
+- Add Number macro [\#455](https://github.com/kellyselden/ember-awesome-macros/issues/455)
+- Reexport raw\(\) and other helpers [\#264](https://github.com/kellyselden/ember-awesome-macros/issues/264)
+
+**Merged pull requests:**
+
+- Remove deprecation for helpers re-exported from ember-macro-helpers [\#457](https://github.com/kellyselden/ember-awesome-macros/pull/457) ([mriska](https://github.com/mriska))
+- Implement a Number composable macro [\#456](https://github.com/kellyselden/ember-awesome-macros/pull/456) ([mriska](https://github.com/mriska))
+
+## [v0.42.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.42.0) (2018-05-06)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.41.0...v0.42.0)
+
+**Closed issues:**
+
+- Deprecation warning under Ember 2.18 [\#452](https://github.com/kellyselden/ember-awesome-macros/issues/452)
+- An in-range update of ember-resolver is breaking the build 🚨 [\#449](https://github.com/kellyselden/ember-awesome-macros/issues/449)
+- \_emberAwesomeMacros.string.trim is not a function [\#437](https://github.com/kellyselden/ember-awesome-macros/issues/437)
+- add array.take macro [\#435](https://github.com/kellyselden/ember-awesome-macros/issues/435)
+- Bug in equal comparison? [\#434](https://github.com/kellyselden/ember-awesome-macros/issues/434)
+
+**Merged pull requests:**
+
+- add bool macro [\#481](https://github.com/kellyselden/ember-awesome-macros/pull/481) ([kellyselden](https://github.com/kellyselden))
+- use new test syntax [\#473](https://github.com/kellyselden/ember-awesome-macros/pull/473) ([kellyselden](https://github.com/kellyselden))
+- drop ember 1 support [\#472](https://github.com/kellyselden/ember-awesome-macros/pull/472) ([kellyselden](https://github.com/kellyselden))
+- remove ember-cli-shims [\#471](https://github.com/kellyselden/ember-awesome-macros/pull/471) ([kellyselden](https://github.com/kellyselden))
+- use Firefox headless [\#469](https://github.com/kellyselden/ember-awesome-macros/pull/469) ([kellyselden](https://github.com/kellyselden))
+- Update ember-macro-helpers to the latest version 🚀 [\#468](https://github.com/kellyselden/ember-awesome-macros/pull/468) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- make better assertions for hash-test [\#467](https://github.com/kellyselden/ember-awesome-macros/pull/467) ([kellyselden](https://github.com/kellyselden))
+- update ember-cli [\#465](https://github.com/kellyselden/ember-awesome-macros/pull/465) ([kellyselden](https://github.com/kellyselden))
+- update ember-cli 3.1 [\#464](https://github.com/kellyselden/ember-awesome-macros/pull/464) ([kellyselden](https://github.com/kellyselden))
+- update ember-cli 2.18 [\#463](https://github.com/kellyselden/ember-awesome-macros/pull/463) ([kellyselden](https://github.com/kellyselden))
+- try npm 5 [\#462](https://github.com/kellyselden/ember-awesome-macros/pull/462) ([kellyselden](https://github.com/kellyselden))
+- fix\(package\): update broccoli-file-creator to version 2.1.1 [\#461](https://github.com/kellyselden/ember-awesome-macros/pull/461) ([kellyselden](https://github.com/kellyselden))
+- chore\(package\): update ember-sinon to version 2.1.0 [\#460](https://github.com/kellyselden/ember-awesome-macros/pull/460) ([kellyselden](https://github.com/kellyselden))
+- Add examples of macro arguments [\#458](https://github.com/kellyselden/ember-awesome-macros/pull/458) ([mriska](https://github.com/mriska))
+- Update eslint-config-sane to the latest version 🚀 [\#451](https://github.com/kellyselden/ember-awesome-macros/pull/451) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Add String.prototype.match macro [\#445](https://github.com/kellyselden/ember-awesome-macros/pull/445) ([YoranBrondsema](https://github.com/YoranBrondsema))
+- Update eslint-config-sane to the latest version 🚀 [\#436](https://github.com/kellyselden/ember-awesome-macros/pull/436) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v0.41.0](https://github.com/kellyselden/ember-awesome-macros/tree/v0.41.0) (2018-01-18)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.40.0...v0.41.0)
 
