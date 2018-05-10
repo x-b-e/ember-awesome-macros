@@ -47,8 +47,6 @@ import writable from 'ember-awesome-macros/writable';
 import { computed, raw, writable } from 'ember-awesome-macros';
 ```
 
-The API is not final until 1.0. I will be adding aliases as I think of better names for things, and possibly breaking or removing existing macros.
-
 If you have any opinions or want a new macro added, just ask! Or feel free to submit a pull request.
 
 ### Introduction Video
