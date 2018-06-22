@@ -1,4 +1,4 @@
-import { A as emberA } from '@ember/array';
+import { A as emberA, isArray as isEmberArray } from '@ember/array';
 import ArrayProxy from '@ember/array/proxy';
 import normalizeArrayKey from 'ember-macro-helpers/normalize-array-key';
 import {
@@ -10,6 +10,25 @@ const sentinelValue = {};
 
 function normalizeArrayArgs(keys) {
   keys[0] = normalizeArrayKey(keys[0]);
+}
+
+function convertArray(array) {
+  if (array instanceof ArrayProxy) {
+    return array;
+  }
+
+  if (Array.isArray(array)) {
+    return emberA(array);
+  }
+
+  if (isEmberArray(array)) {
+    // this is required by the current `concat()` implementation because
+    // Ember.Array itself does not define `concat()` so it only works
+    // for Ember.Array instances that are backed by a real array
+    return emberA(array.toArray());
+  }
+
+  return null;
 }
 
 function getDefaultValue(func, identityVal) {
@@ -25,12 +44,13 @@ export function normalizeArray({
 
     return lazyComputed(...keys, function(get, arrayKey, ...args) {
       let arrayVal = get(arrayKey);
-      if (!arrayVal) {
+      let emberArrayVal = convertArray(arrayVal);
+      if (emberArrayVal === null) {
         return getDefaultValue(defaultValue, arrayVal);
       }
 
       let values = args.map(get);
-      return callback.call(this, arrayVal, ...values);
+      return callback.call(this, emberArrayVal, ...values);
     });
   };
 }
@@ -44,16 +64,10 @@ export function normalizeArray2(
 
     return lazyComputed(...keys, (get, arrayKey, ...args) => {
       let arrayVal = get(arrayKey);
-      let isArrayProxy = arrayVal instanceof ArrayProxy;
-      if (!Array.isArray(arrayVal) && !isArrayProxy) {
-        return getDefaultValue(defaultValue, arrayVal);
-      }
 
-      let emberArrayVal;
-      if (isArrayProxy) {
-        emberArrayVal = arrayVal;
-      } else {
-        emberArrayVal = emberA(arrayVal);
+      let emberArrayVal = convertArray(arrayVal);
+      if (emberArrayVal === null) {
+        return getDefaultValue(defaultValue, arrayVal);
       }
 
       let prop = emberArrayVal[funcStr];
@@ -76,22 +90,18 @@ export function normalizeArray3({
     (array, key, ...args) => {
       return lazyComputed(normalizeArrayKey(array, [key]), ...args, function(get, arrayKey, ...args) {
         let arrayVal = get(arrayKey);
-        let isArrayProxy = arrayVal instanceof ArrayProxy;
-        if (!Array.isArray(arrayVal) && !isArrayProxy) {
+
+        let emberArrayVal = convertArray(arrayVal);
+        if (emberArrayVal === null) {
           return getDefaultValue(firstDefault, arrayVal);
         }
+
         if (typeof key !== 'string') {
           return getDefaultValue(secondDefault, arrayVal);
         }
 
-        let emberArrayVal;
-        if (isArrayProxy) {
-          emberArrayVal = arrayVal;
-        } else {
-          emberArrayVal = emberA(arrayVal);
-        }
-
         let resolvedArgs = [key, ...args.map(get)];
+
         if (typeof func === 'function') {
           return func(emberArrayVal, ...resolvedArgs);
         }
