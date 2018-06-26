@@ -16,27 +16,35 @@ const secondParam = 'second param test';
 const returnValue = 'return value test';
 
 let funcStub;
-let array;
+let originalArray;
+let slicedArray;
 let macro;
+
+function initArray(array) {
+  originalArray = array;
+  sinon.stub(array, 'slice').returns(slicedArray);
+}
 
 module('Unit | Macro | array | utils | normalize array 2', function(hooks) {
   hooks.beforeEach(function() {
-    array = emberA([]);
-    funcStub = sinon.stub(array, 'pop').returns(returnValue);
+    slicedArray = emberA([]);
+    initArray(emberA([]));
+
+    funcStub = sinon.stub(slicedArray, 'pop').returns(returnValue);
 
     macro = normalizeArray2('pop');
   });
 
   test('it returns array identity if array not array type and no default value', function(assert) {
-    array = {};
+    originalArray = {};
 
     compute({
       assert,
       computed: macro('array'),
       properties: {
-        array
+        array: originalArray
       },
-      strictEqual: array
+      strictEqual: originalArray
     });
   });
 
@@ -44,13 +52,13 @@ module('Unit | Macro | array | utils | normalize array 2', function(hooks) {
     let { result } = compute({
       computed: macro('array', 'firstParam', 'secondParam'),
       properties: {
-        array,
+        array: originalArray,
         firstParam,
         secondParam
       }
     });
 
-    assert.strictEqual(funcStub.thisValues[0], array);
+    assert.strictEqual(funcStub.thisValues[0], slicedArray);
     assert.deepEqual(funcStub.args, [[firstParam, secondParam]]);
     assert.strictEqual(result, returnValue);
   });
@@ -83,7 +91,7 @@ module('Unit | Macro | array | utils | normalize array 2', function(hooks) {
 
   test('it calls func on ember data arrays', function(assert) {
     let arrayPromise = ArrayPromiseProxy.create({
-      promise: resolve(array)
+      promise: resolve(originalArray)
     });
 
     funcStub = sinon.stub(arrayPromise, 'isEvery').returns(returnValue);
@@ -142,19 +150,18 @@ module('Unit | Macro | array | utils | normalize array 2', function(hooks) {
   });
 
   test('it handles native arrays', function(assert) {
-    array = [];
-    funcStub = sinon.stub(array, 'pop').returns(returnValue);
+    initArray([]);
 
     let { result } = compute({
       computed: macro('array', 'firstParam', 'secondParam'),
       properties: {
-        array,
+        array: originalArray,
         firstParam,
         secondParam
       }
     });
 
-    assert.strictEqual(funcStub.thisValues[0], array);
+    assert.strictEqual(funcStub.thisValues[0], slicedArray);
     assert.deepEqual(funcStub.args, [[firstParam, secondParam]]);
     assert.strictEqual(result, returnValue);
   });
@@ -162,13 +169,13 @@ module('Unit | Macro | array | utils | normalize array 2', function(hooks) {
   test('composable: it calls func on array', function(assert) {
     let { result } = compute({
       computed: macro(
-        raw(array),
+        raw(originalArray),
         raw(firstParam),
         raw(secondParam)
       )
     });
 
-    assert.strictEqual(funcStub.thisValues[0], array);
+    assert.strictEqual(funcStub.thisValues[0], slicedArray);
     assert.deepEqual(funcStub.args, [[firstParam, secondParam]]);
     assert.strictEqual(result, returnValue);
   });
