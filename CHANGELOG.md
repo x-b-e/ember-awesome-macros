@@ -1,5 +1,47 @@
 # Change Log
 
+## [v2.0.0](https://github.com/kellyselden/ember-awesome-macros/tree/v2.0.0) (2018-07-06)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v1.0.2...v2.0.0)
+
+**Merged pull requests:**
+
+- use node 6 syntax [\#494](https://github.com/kellyselden/ember-awesome-macros/pull/494) ([kellyselden](https://github.com/kellyselden))
+- refresh lockfile [\#493](https://github.com/kellyselden/ember-awesome-macros/pull/493) ([kellyselden](https://github.com/kellyselden))
+- Update dependency qunit-dom to ^0.7.0 [\#492](https://github.com/kellyselden/ember-awesome-macros/pull/492) ([renovate[bot]](https://github.com/apps/renovate))
+- ember-cli 3.2.0 [\#491](https://github.com/kellyselden/ember-awesome-macros/pull/491) ([kellyselden](https://github.com/kellyselden))
+- isEmpty cleanup [\#490](https://github.com/kellyselden/ember-awesome-macros/pull/490) ([kellyselden](https://github.com/kellyselden))
+- Update dependency ember-data to ~3.2.0 [\#488](https://github.com/kellyselden/ember-awesome-macros/pull/488) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency broccoli-merge-trees to v3 [\#470](https://github.com/kellyselden/ember-awesome-macros/pull/470) ([renovate[bot]](https://github.com/apps/renovate))
+- Add isEmpty macro [\#443](https://github.com/kellyselden/ember-awesome-macros/pull/443) ([ctjhoa](https://github.com/ctjhoa))
+
+## [v1.0.2](https://github.com/kellyselden/ember-awesome-macros/tree/v1.0.2) (2018-06-26)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v1.0.1...v1.0.2)
+
+**Fixed bugs:**
+
+-  array: Use `.slice\(\)` to ensure plain arrays are not mutated to Ember arrays [\#486](https://github.com/kellyselden/ember-awesome-macros/pull/486) ([Turbo87](https://github.com/Turbo87))
+
+**Merged pull requests:**
+
+- move test chunk [\#487](https://github.com/kellyselden/ember-awesome-macros/pull/487) ([kellyselden](https://github.com/kellyselden))
+
+## [v1.0.1](https://github.com/kellyselden/ember-awesome-macros/tree/v1.0.1) (2018-06-22)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v1.0.0...v1.0.1)
+
+**Fixed bugs:**
+
+- Fix array macros for Ember.Array objects [\#424](https://github.com/kellyselden/ember-awesome-macros/pull/424) ([lolmaus](https://github.com/lolmaus))
+
+**Closed issues:**
+
+- findBy returns array [\#475](https://github.com/kellyselden/ember-awesome-macros/issues/475)
+- `isAny` not working for Ember Data arrays [\#441](https://github.com/kellyselden/ember-awesome-macros/issues/441)
+- Array macros fail with Array-like objects [\#423](https://github.com/kellyselden/ember-awesome-macros/issues/423)
+
+**Merged pull requests:**
+
+- refresh lockfile [\#484](https://github.com/kellyselden/ember-awesome-macros/pull/484) ([kellyselden](https://github.com/kellyselden))
+
 ## [v1.0.0](https://github.com/kellyselden/ember-awesome-macros/tree/v1.0.0) (2018-05-09)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v0.44.0...v1.0.0)
 
