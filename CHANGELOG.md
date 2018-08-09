@@ -1,5 +1,18 @@
 # Change Log
 
+## [v3.0.0](https://github.com/kellyselden/ember-awesome-macros/tree/v3.0.0) (2018-08-09)
+[Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v2.0.0...v3.0.0)
+
+**Merged pull requests:**
+
+- Update dependency ember-macro-helpers to v2 [\#501](https://github.com/kellyselden/ember-awesome-macros/pull/501) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency ember-cli-htmlbars to v3 [\#500](https://github.com/kellyselden/ember-awesome-macros/pull/500) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency ember-resolver to v5 [\#499](https://github.com/kellyselden/ember-awesome-macros/pull/499) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency ember-cli-dependency-checker to v3 [\#498](https://github.com/kellyselden/ember-awesome-macros/pull/498) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency eslint-plugin-node to v7 [\#497](https://github.com/kellyselden/ember-awesome-macros/pull/497) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency ember-source to ~3.3.0 [\#496](https://github.com/kellyselden/ember-awesome-macros/pull/496) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency ember-cli to ~3.3.0 [\#495](https://github.com/kellyselden/ember-awesome-macros/pull/495) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.0](https://github.com/kellyselden/ember-awesome-macros/tree/v2.0.0) (2018-07-06)
 [Full Changelog](https://github.com/kellyselden/ember-awesome-macros/compare/v1.0.2...v2.0.0)
 
