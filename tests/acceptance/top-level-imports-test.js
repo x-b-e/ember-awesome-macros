@@ -27,7 +27,9 @@ import macros, {
   math,
   mod,
   multiply,
+  nand,
   neq,
+  nor,
   not,
   notEqual,
   number,
@@ -47,6 +49,8 @@ import macros, {
   typeOf,
   unless,
   writable,
+  xnor,
+  xor,
 
   // deprecations
 
@@ -118,7 +122,9 @@ import _lt from 'ember-awesome-macros/lt';
 import _lte from 'ember-awesome-macros/lte';
 import _mod from 'ember-awesome-macros/mod';
 import _multiply from 'ember-awesome-macros/multiply';
+import _nand from 'ember-awesome-macros/nand';
 import _neq from 'ember-awesome-macros/neq';
+import _nor from 'ember-awesome-macros/nor';
 import _not from 'ember-awesome-macros/not';
 import _notEqual from 'ember-awesome-macros/not-equal';
 import _number from 'ember-awesome-macros/number';
@@ -136,6 +142,8 @@ import _toString from 'ember-awesome-macros/to-string';
 import _typeOf from 'ember-awesome-macros/type-of';
 import _unless from 'ember-awesome-macros/unless';
 import _writable from 'ember-awesome-macros/writable';
+import _xnor from 'ember-awesome-macros/xnor';
+import _xor from 'ember-awesome-macros/xor';
 
 module('Acceptance | top level imports', function() {
   test('all top level global imports', function(assert) {
@@ -167,7 +175,9 @@ module('Acceptance | top level imports', function() {
     assert.ok(macros.math);
     assert.ok(macros.mod);
     assert.ok(macros.multiply);
+    assert.ok(macros.nand);
     assert.ok(macros.neq);
+    assert.ok(macros.nor);
     assert.ok(macros.not);
     assert.ok(macros.notEqual);
     assert.ok(macros.number);
@@ -187,6 +197,8 @@ module('Acceptance | top level imports', function() {
     assert.ok(macros.typeOf);
     assert.ok(macros.unless);
     assert.ok(macros.writable);
+    assert.ok(macros.xnor);
+    assert.ok(macros.xor);
 
     // deprecations
 
@@ -264,7 +276,9 @@ module('Acceptance | top level imports', function() {
     assert.ok(math);
     assert.ok(mod);
     assert.ok(multiply);
+    assert.ok(nand);
     assert.ok(neq);
+    assert.ok(nor);
     assert.ok(not);
     assert.ok(notEqual);
     assert.ok(number);
@@ -284,6 +298,8 @@ module('Acceptance | top level imports', function() {
     assert.ok(typeOf);
     assert.ok(unless);
     assert.ok(writable);
+    assert.ok(xnor);
+    assert.ok(xor);
 
     // deprecations
 
@@ -359,7 +375,9 @@ module('Acceptance | top level imports', function() {
     assert.ok(_lte);
     assert.ok(_mod);
     assert.ok(_multiply);
+    assert.ok(_nand);
     assert.ok(_neq);
+    assert.ok(_nor);
     assert.ok(_not);
     assert.ok(_notEqual);
     assert.ok(_number);
@@ -377,5 +395,7 @@ module('Acceptance | top level imports', function() {
     assert.ok(_typeOf);
     assert.ok(_unless);
     assert.ok(_writable);
+    assert.ok(_xnor);
+    assert.ok(_xor);
   });
 });
